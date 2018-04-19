@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Have Hyperlink button give text, target and hyperlink option. Currently you need to select the text.",
+    "LastUpdatedDate": "2013-02-14T12:46:57.1-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2007-11-07T11:54:36.49-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Have Hyperlink button give text, target and hyperlink option",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 4,
+    "Id": 4311
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "And hyperlink target....",
+      "PostedDate": "2007-12-10T14:49:34.263-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-06-03T20:28:23.027-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "f1crazed\r\nAug 7 at 3:00 PM\r\n\t\r\nIs there a way to set the target property of a hyperlink?  I have been playing around with the HyperLinkDialog.js file to see if I could added something in there but, have not been successful.  Thanks for any help in advance!\r\n\r\n-JD\r\n\r\n\t\r\nReply\r\nyorkrj\r\nDeveloper\r\nToday at 12:17 PM\r\n\t\r\nNo, not at this time... Although you could switch to the HTML tab and add Target properties that way. Not a great solution but it's a work-around.\r\n\r\n\t\r\nEdit\r\nReply\r\nf1crazed\r\nToday at 1:08 PM\r\n\t\r\nyorkrj-\r\n\r\nI did figure out a solution.  In RteStartup.js, inside of the SetHyperLink function I added the following code:\r\n\r\n\r\nfunction SetHyperLink(v)\r\n{\r\nvar elNode = null;\r\n\r\n    if (v)\r\n    {\r\n       \r\n        if (browser.isMicrosoft)\r\n        {\r\n            SetSelection();\r\n\r\n            if (v.link && v.link!=\"\")\r\n            {\r\n                richeditor.ExecRichEditCommand(\"CreateLink\",v.link);   \r\n               \r\n           \r\n           \r\n                if (v.nofollow)\r\n                {\r\n                    sel.collapse();\r\n                    elNode = sel.parentElement();\r\n                                                     \r\n                    while (elNode!=null && elNode.tagName!=\"A\")\r\n                        elNode = elNode.parentElement\r\n               \r\n                    /****************************************/\r\n                    //Added to add target property to the link\r\n                    var newAttr = document.createAttribute(\"target\");\r\n                    newAttr.nodeValue = \"_blank\";\r\n                    elNode.setAttributeNode(newAttr);\r\n                    /****************************************/\r\n                 \r\n                    if (elNode)\r\n                        elNode.rel = \"nofollow\";\r\n                       \r\n                   \r\n                }\r\n                else\r\n                {\r\n               \r\n                    sel.collapse();\r\n                    elNode = sel.parentElement();\r\n                                                     \r\n                    while (elNode!=null && elNode.tagName!=\"A\")\r\n                        elNode = elNode.parentElement\r\n                       \r\n                    /****************************************/\r\n                    //Added to add target property to the link\r\n                    var newAttr = document.createAttribute(\"target\");\r\n                    newAttr.nodeValue = \"_blank\";\r\n                    elNode.setAttributeNode(newAttr);\r\n                    /****************************************/\r\n                }\r\n               \r\n               \r\n            }\r\n            else\r\n                 richeditor.ExecRichEditCommand(\"Unlink\",null);\r\n        }\r\n        else\r\n        {\r\n            if (v.link && v.link!=\"\")\r\n            {\r\n                var selectedRange = richeditor.GetWindow().getSelection();               \r\n                var curDoc = null;\r\n               \r\n                richeditor.ExecRichEditCommand(\"CreateLink\",v.link);   \r\n               \r\n                elNode = selectedRange.focusNode.parentNode;\r\n               \r\n                while (elNode!=null && elNode.tagName!=\"A\")\r\n                    elNode = elNode.parentNode;\r\n\r\n                /****************************************/\r\n                //Added to add target property to the link\r\n                //gets the current document to create\r\n                //the new atribute from                \r\n                curDoc = elNode.parentNode;\r\n                while ( curDoc.nodeType!= 9)\r\n                    curDoc = curDoc.parentNode;\r\n                /****************************************/\r\n\r\n                 if(elNode != null)\r\n                 {\r\n                    /****************************************/\r\n                    //Added to add target property to the link\r\n                    var newAttr = curDoc.createAttribute(\"target\");\r\n                    newAttr.nodeValue = \"_blank\";\r\n                    elNode.setAttributeNode(newAttr);\r\n                    /****************************************/\r\n                      var nextElement = elNode.nextSibling;\r\n                      var spcNode =richeditor.GetDocument().createTextNode(\" \");\r\n                     \r\n                     \r\n                     \r\n                      if(nextElement == null)\r\n                      {\r\n                        elNode.parentNode.appendChild(spcNode);\r\n                      }\r\n                      else if(nextElement.nodeType != 3)\r\n                      {\r\n                        nextElement.parentNode.insertBefore(spcNode,nextElement);\r\n                      }  \r\n                      var range = richeditor.GetDocument().createRange();\r\n                      range.selectNode(elNode.nextSibling);\r\n                      range.collapse(true);\r\n\r\n                      selectedRange.removeAllRanges();\r\n                      selectedRange.addRange(range);\r\n                 }\r\n            }\r\n            else\r\n                 richeditor.ExecRichEditCommand(\"Unlink\",null);\r\n        }\r\n    }\r\n   \r\n    if (browser.isMicrosoft && richeditor.EditMode == true)\r\n    selCurrent = null;\r\n}\r\n\r\nThis does not give the user an option about adding the attribute but I'm sure it can be wired up in the HyperLinkDialog.js to allow the user to select the target of the link.  Maybe you could add it to the next release of the RTE.\r\n\r\n-JD",
+      "PostedDate": "2008-08-14T17:09:36.263-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-08-14T17:10:22.717-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:57.1-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "151588",
+    "ThreadId": "45440",
+    "Html": "<p>Along with underlying HTML I am trying to get plain text as well by calling <br>\r\n<em>richeditor.toString()</em> in CopyText and saving it to a hidden field. </p>\r\n<p>Works fine in IE, but in FireFox I get &quot;<em>undefined</em>&quot;.</p>\r\n<p><em>function CopyText2() {<br>\r\n contents = top.document.getElementById(editorId);<br>\r\n contents.value = richeditor.toHtmlString();<br>\r\n var plainText = top.document.getElementById(&quot;ctl00_ContentFrame_plainText&quot;);<br>\r\n plainText.value = richeditor.toString();<br>\r\n}</em></p>\r\n<p>traced it down in Firebug to the following function:<br>\r\n<em>RichTextEditor.prototype.toString = function() {<br>\r\n return this.GetDocument().body.innerText;<br>\r\n}</em> </p>\r\n<p><em>innerText</em> does not seem to exist, instead there is <em>textContent</em> attribute, which does have the plain text I am looking for.</p>\r\n<p>Anyone has ideas on what is going on here, why is it different between IE and FF?</p>\r\n<p>Any help is much appreciated,<br>\r\nThanks </p>\r\n",
+    "PostedDate": "2009-01-27T18:34:20.53-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

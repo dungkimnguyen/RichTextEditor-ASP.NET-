@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The mark code block toolbar button allows users to paste code into the editor, highlight and hit this button to show the code inside a block. It also tags the codeblock with a class name on the lines of a microformat. \n \nBut given the way the rich text editor needs to be implmented on the web it allows one to edit any portions of the codeblock including its title area etc. Thus there are some limitations. Also I had to go through lot of browser compatability issues here to make it work across both browsers. \n \nLooking back I think the better way to do it would be to popup a dialog box when you hit code block button, allow user to paste the code, format it and then insert the codeblock into the editor.",
+    "LastUpdatedDate": "2013-02-14T12:46:57.42-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2007-11-07T11:47:42.84-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "CodeBlock Limitations",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 4308
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "210303",
+    "ThreadId": "61950",
+    "Html": "<p>Hi,</p>\r\n<p>I've tried to use RTE in modal dialog page, but it doesn't work.</p>\r\n<p>It seems like it can't get focus (I am not sure if it is iframe or text are that should get focus.</p>\r\n<p><br>However, end result is that I can't edit or enter text to RTE :(</p>\r\n<p>If I try to use it directly within IE (not i modal dialog) it works fine.</p>\r\n<p>&nbsp;</p>\r\n<p>Can anyone guide how to troubleshoot and solve this?</p>\r\n<p><br>Thanks</p>\r\n<p>Marjan Panic</p>\r\n<p><a title=\"Marjan Panic homepage\" href=\"http://www.marjanpanic.com\">http://www.marjanpanic.com</a></p>\r\n<p><a title=\"Panic on Blogging\" href=\"http://marjanpaniconblogging.blogspot.com\">http://marjanpaniconblogging.blogspot.com</a></p>\r\n<p><a title=\"Daily photos of wonderful Copenhagen \" href=\"http://copenhagenphotostories.blogspot.com\">http://copenhagenphotostories.blogspot.com</a></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-07-09T00:47:32.03-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

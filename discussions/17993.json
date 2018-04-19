@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "58771",
+    "ThreadId": "17993",
+    "Html": "\r\nIs it possible for the editor to import the site's css style sheet, or have the editor read the styles into a drop down that could be used to apply the style to selected text, instead of using the font and size tags?<br /><br />--<br />Joe<br />",
+    "PostedDate": "2007-11-18T15:20:36.26-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "59040",
+    "ThreadId": "17993",
+    "Html": "\r\nJoe,<br /><br /> If you take a look at the sources, the RTE is built using browser design mode functionality. Thus the tags that get created for font and other rich editing is by the browser and not by the control except in few places where I had to modify the tags to support cross browser portability. If you want to do all that yourself then its lot more work to do. <br /><br />You could import the styles but what happens when someone later wants to view your documents created with the rte. You would need to have the original style sheets to get the same view. So you would have to now store those style sheets too along with the html in your database on the server side of the supporting web application. But having those styles embedded you simplify the work that needs to be done on the backend. <br /><br />Having said that based on the community feedback for xhtml support it might require that I handle the tag creation myself instead of leaving it to the browser. Something for me to think about for the next version.<br /><br />Thanks for your feedback.<br />Kannan.<br />",
+    "PostedDate": "2007-11-20T05:58:34.487-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "148641",
+    "ThreadId": "17993",
+    "Html": "I wondered if any more thought had been given to Joe's request. I take your point as to the amount of work involved when the browser generates the tags as opposed to creating them in the control and using CSS. However, your 2nd point about having to carry the style sheets with the docs is not valid in all cases. My application is a content management system to update an existing site; so, the style sheets would always be available. It would give me more control over the client input and eleiminate all of that extra mark-up.<br>\r\n<br>\r\nThat being said the control is great and much appreciated.<br>\r\n<br>\r\nRick\r\n",
+    "PostedDate": "2009-01-20T01:13:47.047-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

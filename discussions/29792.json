@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "99287",
+    "ThreadId": "29792",
+    "Html": "hi , <br>\r\n<br>\r\nits my great pleasure to integrate your control - 11714 in to my project , <br>\r\nits working fine , but when i am trying to reduce the size the rte(rich text editor ), <br>\r\nthe buttons on the menu are over lapping on one an another , <br>\r\nso that the view of the rte goes worse in appearance , <br>\r\nplease suggest me a solution to control&nbsp; the button size . <br>\r\nplease help me with your suitable solutions. <br>\r\n<br>\r\nthank you <br>\r\n<br>\r\nashok .c <br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n",
+    "PostedDate": "2008-06-17T07:30:32.47-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "99315",
+    "ThreadId": "29792",
+    "Html": "Hi Ashok,<br>\r\n<br>\r\nI'm having the same problems with the toolbar buttons. I'm working on a solution that involves wrapping the buttons to a new line when they don't fit. There's a good amount of code that needs to be modified to get it working so I don't know how soon it will be ready. In the mean-time, your only option is to dive into the code and remove those buttons that you don't need.<br>\r\n<br>\r\nThanks,<br>\r\nRob<br>\r\n<div style=\"border-style:dotted none;border-color:rgb(170, 170, 170) -moz-use-text-color;border-width:0.1em medium;margin:1em 0em 2.5em 3em;padding:0.2em;font-style:italic\"><br>\r\nashok_cmohan wrote:<br>\r\nhi , <br>\r\n<br>\r\nits my great pleasure to integrate your control - 11714 in to my project , <br>\r\nits working fine , but when i am trying to reduce the size the rte(rich text editor ), <br>\r\nthe buttons on the menu are over lapping on one an another , <br>\r\nso that the view of the rte goes worse in appearance , <br>\r\nplease suggest me a solution to control&nbsp; the button size . <br>\r\nplease help me with your suitable solutions. <br>\r\n<br>\r\nthank you <br>\r\n<br>\r\nashok .c <br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n</div>\r\n<br>\r\n",
+    "PostedDate": "2008-06-17T09:26:05.52-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "100490",
+    "ThreadId": "29792",
+    "Html": "hi&nbsp; Yorkrj , <br>\r\n<br>\r\nthanks for your suggestion and solutions , i have done the same as what you have told , now i have another issue , in which when i put the rte inside a page in which page has been inherited by a master page , every thing is working fine , but when i click the font or font size drop down , <span style=\"text-decoration:underline\"><em><strong>the drop down list does not appears below it , it appears out of&nbsp; the rte</strong></em></span> , please suggest your solution on this issue . <br>\r\nthanks for your patience on reading this , <br>\r\n<br>\r\nthanks , <br>\r\nashok.c<br>\r\n<div style=\"border-style:dotted none;border-color:rgb(170, 170, 170) -moz-use-text-color;border-width:0.1em medium;margin:1em 0em 2.5em 3em;padding:0.2em;font-style:italic\"><br>\r\nyorkrj wrote:<br>\r\nHi Ashok,<br>\r\n<br>\r\nI'm having the same problems with the toolbar buttons. I'm working on a solution that involves wrapping the buttons to a new line when they don't fit. There's a good amount of code that needs to be modified to get it working so I don't know how soon it will be ready. In the mean-time, your only option is to dive into the code and remove those buttons that you don't need.<br>\r\n<br>\r\nThanks,<br>\r\nRob<br>\r\n<div style=\"border-style:dotted none;border-color:rgb(170, 170, 170) -moz-use-text-color;border-width:0.1em medium;margin:1em 0em 2.5em 3em;padding:0.2em;font-style:italic\"><br>\r\nashok_cmohan wrote:<br>\r\nhi , <br>\r\n<br>\r\nits my great pleasure to integrate your control - 11714 in to my project , <br>\r\nits working fine , but when i am trying to reduce the size the rte(rich text editor ), <br>\r\nthe buttons on the menu are over lapping on one an another , <br>\r\nso that the view of the rte goes worse in appearance , <br>\r\nplease suggest me a solution to control&nbsp; the button size . <br>\r\nplease help me with your suitable solutions. <br>\r\n<br>\r\nthank you <br>\r\n<br>\r\nashok .c <br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n</div>\r\n<br>\r\n<br>\r\n<br>\r\n</div>\r\n<br>\r\n",
+    "PostedDate": "2008-06-23T21:37:55.477-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "100828",
+    "ThreadId": "29792",
+    "Html": "I have seen that other people are having that issue too. I'm not sure what can be done about it. When I put the control in a simple master page, I don't have any problems with the dropdown lists. If you try testing with a simple master page then add parts of your master page that's causing the trouble piece by piece, you might be able to track down what is specifically causing the dropdown lists to appear outside the RTE. If you do find out, let us know and we'll see what we can do.<br>\r\n<br>\r\nThanks,<br>\r\nRob<br>\r\n<div style=\"border-style:dotted none;border-color:rgb(170, 170, 170) -moz-use-text-color;border-width:0.1em medium;margin:1em 0em 2.5em 3em;padding:0.2em;font-style:italic\"><br>\r\nashok_cmohan wrote:<br>\r\nhi&nbsp; Yorkrj , <br>\r\n<br>\r\nthanks for your suggestion and solutions , i have done the same as what you have told , now i have another issue , in which when i put the rte inside a page in which page has been inherited by a master page , every thing is working fine , but when i click the font or font size drop down , <span style=\"text-decoration:underline\"><em><strong>the drop down list does not appears below it , it appears out of&nbsp; the rte</strong></em></span> , please suggest your solution on this issue . <br>\r\nthanks for your patience on reading this , <br>\r\n<br>\r\nthanks , <br>\r\nashok.c<br>\r\n<div style=\"border-style:dotted none;border-color:rgb(170, 170, 170) -moz-use-text-color;border-width:0.1em medium;margin:1em 0em 2.5em 3em;padding:0.2em;font-style:italic\"><br>\r\nyorkrj wrote:<br>\r\nHi Ashok,<br>\r\n<br>\r\nI'm having the same problems with the toolbar buttons. I'm working on a solution that involves wrapping the buttons to a new line when they don't fit. There's a good amount of code that needs to be modified to get it working so I don't know how soon it will be ready. In the mean-time, your only option is to dive into the code and remove those buttons that you don't need.<br>\r\n<br>\r\nThanks,<br>\r\nRob<br>\r\n<div style=\"border-style:dotted none;border-color:rgb(170, 170, 170) -moz-use-text-color;border-width:0.1em medium;margin:1em 0em 2.5em 3em;padding:0.2em;font-style:italic\"><br>\r\nashok_cmohan wrote:<br>\r\nhi , <br>\r\n<br>\r\nits my great pleasure to integrate your control - 11714 in to my project , <br>\r\nits working fine , but when i am trying to reduce the size the rte(rich text editor ), <br>\r\nthe buttons on the menu are over lapping on one an another , <br>\r\nso that the view of the rte goes worse in appearance , <br>\r\nplease suggest me a solution to control&nbsp; the button size . <br>\r\nplease help me with your suitable solutions. <br>\r\n<br>\r\nthank you <br>\r\n<br>\r\nashok .c <br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n</div>\r\n<br>\r\n<br>\r\n<br>\r\n</div>\r\n<br>\r\n<br>\r\n<br>\r\n</div>\r\n<br>\r\n",
+    "PostedDate": "2008-06-25T09:49:34.177-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "108225",
+    "ThreadId": "29792",
+    "Html": "<em><strong>Hi yorkrj , <br>\r\n<br>\r\nI am highly Impressed With Your Work , <br>\r\nRight now using the latest RTE Which you have done . <br>\r\nBut I would like to change the back ground color of the drop down list when i click , <br>\r\nI Know you can do it . <br>\r\n<br>\r\nPlease suggest me a solution .<br>\r\n<br>\r\nThank You , </strong></em><br>\r\n<em><strong><br>\r\nashok.c </strong></em><br>\r\n<br>\r\n",
+    "PostedDate": "2008-07-31T05:48:44.933-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111140",
+    "ThreadId": "29792",
+    "Html": "You would have to change the code of the RTE project to change the background color of the dropdown list. We will have to add the feature so you can configure it.<br>\r\n",
+    "PostedDate": "2008-08-14T09:21:23.86-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

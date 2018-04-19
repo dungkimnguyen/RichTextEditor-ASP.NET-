@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "443926",
+    "ThreadId": "212935",
+    "Html": "<p>how do i add default values into rte - for example when the page loads the textarea already has text in there such as &quot;add text here&quot; etc.?</p>",
+    "PostedDate": "2010-05-17T11:46:39.503-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "443949",
+    "ThreadId": "212935",
+    "Html": "<p>Hello,</p>\r\n<p>To add text via server side you would use:<br><br></p>\r\n<div style=\"color:black;background-color:white\">\r\n<pre>RichTextBox.text = <span style=\"color:#a31515\">&quot;&quot;</span>;\r\n</pre>\r\n</div>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-05-17T12:55:12.967-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "462138",
+    "ThreadId": "212935",
+    "Html": "<p>Hi,</p>\r\n<p>&nbsp;I use Vb.net &amp; use the editor with a master page.</p>\r\n<p>&nbsp;I&nbsp;store the HTML saved when staff create news items using the editor&nbsp;in an SQL database table. When this news item gets selected to be edited I use the following code to retrieve &amp; therefore prepoplulate the editor (below). If you just change it to .Text = &quot;What ever you want as default&quot;, that will appear instead. cmdGetHTML.ExecuteScalar() is executing the SQL command.</p>\r\n<p>\r\n<p>&nbsp;</p>\r\n</p>\r\n<div><span style=\"font-size:x-small;color:#0000ff\"><span style=\"font-size:x-small;color:#0000ff\"><span style=\"font-size:x-small;color:#0000ff\">\r\n<p><span style=\"font-size:x-small\">CType</span></p>\r\n</span></span></span><span style=\"font-size:x-small;color:#0000ff\"><span><span><span><span>(Rte1.FindControl(&quot;editor&quot;), System.Web.UI.WebControls.TextBox).Text = cmdGetHTML.ExecuteScalar().ToString.Replace(vbCrLf, &quot;&lt;br /&gt;&quot;)</span></span></span></span></span></div>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p><span style=\"font-size:x-small;color:#0000ff\"><span style=\"font-size:x-small;color:#0000ff\"><span style=\"font-size:x-small;color:#0000ff\"><span style=\"font-size:x-small;color:#0000ff\"><span style=\"font-size:x-small;color:#0000ff\"><span style=\"font-size:x-small;color:#0000ff\"></span></span></span></span></span></span></p>\r\n<p>\r\n<p>&nbsp;</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>&nbsp;</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>&nbsp;</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>&nbsp;</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>&nbsp;</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>&nbsp;</p>\r\n</p>\r\n</p>\r\n</p>\r\n</p>\r\n<p>\r\n<p>\r\n<p>\r\n<p>&nbsp;</p>\r\n</p>\r\n</p>\r\n</p>\r\n<p>\r\n<p>\r\n<p>&nbsp;</p>\r\n</p>\r\n</p>\r\n<p>\r\n<p>&nbsp;</p>\r\n</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-07-01T05:03:25.24-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

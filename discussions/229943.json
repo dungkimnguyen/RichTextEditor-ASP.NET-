@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "503489",
+    "ThreadId": "229943",
+    "Html": "<p>Hello,<br><br>I want to set the &quot;onpaste&quot; Event to the RichtTextEditor.<br>Is it possible?<br><br>The Problem is, that the fontsize should ever&nbsp;be 10pt. (I deleted the listbox with the fontsizes)<br>When somebody pastes formatted text from Word, the fontsize will be takeover to the RTE.<br>I will reformat the pasted text to 10pt.<br><br><br>best regards</p>",
+    "PostedDate": "2010-10-07T01:53:18.587-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

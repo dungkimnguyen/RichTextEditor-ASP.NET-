@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Thanks for your wonderful control.\n \nWhen i set Height and Width for Rich Text Editor Control on Asp.Net Page  then only its effecting on toolbar its not effecting for IFrame.\n \nWhen i check your code, the iFrame height and weight fields are setting on CreateChildControls of Rte.cs, thats why its not effecting for Iframe, If you move to AddAttributesToRender method then its working fine.\n \nIs there any way to set visibility for Toolbar Buttons?\n \nI found that i can expose some properties in Rte.cs for some toolbar buttons and based on those properties i can add those respective buttons on \"OnPreRender\" of rte.cs.\n \nIs that only way i can set visibility or is there other way?\n \nPresently i am looking this control for testing only. Can you use this control on any real time project by changing source code as i mentioned above.",
+    "LastUpdatedDate": "2013-02-14T12:46:50.623-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2010-08-06T01:02:21.8-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Height and Width not working properly",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 13923
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

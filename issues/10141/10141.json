@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi, I am using the RichTextEditor on a page with an ascx header control, on the header then are asp link buttons. When I click one of the link buttons I get the \"potentially dangerous Request.Form value was detected from the client\" error because the text in the RichTextEditor contains html tags (depending on what I put in the editor). I know that the text needs to be encoded before the page is posted back but am not sure how to go about this. I don't want to turn page validation off for security reasons.\n \nSomebody else created this page but they have now left the company so I am a bit frustrated as I don't think this page has ever worked properly.\n \nThis is my link button on the ascx control - \n<asp:LinkButton ID=\"lnkBtnAdminMenuUserAdmin\" runat=\"server\" PostBackUrl=\"~/Secure/Users.aspx\" Text=\"User Administration\" CssClass=\"MenuLinkButton\" ForeColor=\"white\" Width=\"150px\"></asp:LinkButton>\n \nThis is the editor declaration on the main page -\n<%@ Register Assembly=\"RichTextEditor\" Namespace=\"AjaxControls\" TagPrefix=\"cc1\" %>\n<cc1:RichTextEditor ID=\"RTF\" runat=\"server\"  />\n \nAny help would be appreciated.",
+    "LastUpdatedDate": "2013-02-14T12:46:51.857-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2009-06-16T06:29:38.57-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "A potentially dangerous Request",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10141
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

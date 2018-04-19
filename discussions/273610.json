@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "675841",
+    "ThreadId": "273610",
+    "Html": "\r\n<p>I'm trying to get the data out of the RTE and I'm getting the following error:</p>\r\n<p><em>A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$editor=&quot;&lt;?xml version=&quot;1.0&quot; ...&quot;).</em></p>\r\n<p>When I save a word document to HTML using DocIO it has the &lt;?xml version=&quot;1.0&quot; ...&nbsp; at the beginning of the html.&nbsp; and I've populated the editor with the html from that save...</p>\r\n<p>Is there a work around?</p>\r\n<p>Thanks for your help.</p>\r\n",
+    "PostedDate": "2011-09-23T07:08:14.663-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

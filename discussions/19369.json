@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "63917",
+    "ThreadId": "19369",
+    "Html": "\r\nWhat should I changed so the emoticons button and the associated resources don't get emitted to the client?<br /><br />It's not needed for the current implementation. The editor will be used to enter business related text. And I'm also trying to make the asp page \"lighter.\"<br />",
+    "PostedDate": "2007-12-18T14:07:17.87-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "66051",
+    "ThreadId": "19369",
+    "Html": "\r\nIs this possible?<br />",
+    "PostedDate": "2008-01-04T06:09:17.343-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "72347",
+    "ThreadId": "19369",
+    "Html": "\r\nYes.<br /><br />Open up the project solution.<br />Comment out the following line in rte.cs :<br /><br /> toolbar.AddButton(AjaxControls.ToolBar.ToolbarItemType.ImageButton, ToolTips<a href=\"http://www.codeplex.com/rte/Wiki/View.aspx?title=%22Emoticons%22\">\"Emoticons\"</a>.ToString(), 17, \"OnEmoticon\",null,\"RteEmoticon\");<br /><br />Build -&gt; Deploy -&gt; Bang !<br />",
+    "PostedDate": "2008-02-07T04:41:21.333-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

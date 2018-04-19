@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "654309",
+    "ThreadId": "268155",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>I want users to copy-paste images on browser (just like Word).</p>\r\n<p>This control works perfectly on Firefox v5. But, it doesn't allow copy-paste images on IE8.</p>\r\n<p>&nbsp;</p>\r\n<p>I believe, it's mostly related to IE8. I've already enabled options like 'Allow clipboard access by Script' and added site under Trusted zone but still the issue is coming.</p>\r\n<p>&nbsp;</p>\r\n<p>Please help on this as it's really critical issue for me.</p>\r\n<p>&nbsp;</p>\r\n<p>Thank you,<br>\r\nSagar S.</p>\r\n",
+    "PostedDate": "2011-08-07T23:13:25.38-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

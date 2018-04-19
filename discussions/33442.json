@@ -1,0 +1,178 @@
+[
+  {
+    "Id": "110844",
+    "ThreadId": "33442",
+    "Html": "I am using a master page with .NET 3.5 and IE 6.0. I keep getting Command Aborted error after the control displays, and then page cannot be displayed.&nbsp; Doesn't fail if there is no master page.\r\n",
+    "PostedDate": "2008-08-13T07:12:55.303-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111139",
+    "ThreadId": "33442",
+    "Html": "Could you post code that generates the error?<br>\r\n",
+    "PostedDate": "2008-08-14T09:18:50.677-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111212",
+    "ThreadId": "33442",
+    "Html": "<div dir=ltr align=left><span class=507140317-14082008>I have sent you an email with the code zipped.</span></div>\r\n<div></div>\r\n<div align=left>&nbsp;</div>\r\n<div></div>\r\n<br>\r\n<div class=OutlookMessageHeader lang=en-us dir=ltr align=left>\r\n<hr>\r\n<b>From:</b> yorkrj [mailto:notifications@codeplex.com] <br>\r\n<b>Sent:</b> Thursday, August 14, 2008 9:55 AM<br>\r\n<b>To:</b> Mazza, Rich<br>\r\n<b>Subject:</b> Re: Command Aborted [rte:33442]<br>\r\n<br>\r\n</div>\r\n<div></div>\r\n<p>From: yorkrj</p>\r\n<div id=ThreadNotificationPostBody>Could you post code that generates the error?<br>\r\n</div>\r\n",
+    "PostedDate": "2008-08-14T14:33:21.523-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111213",
+    "ThreadId": "33442",
+    "Html": "\r\n<div dir=ltr align=left><span class=583145616-14082008>I am new to \r\nthis forum.</span></div>\r\n<div dir=ltr align=left><span class=583145616-14082008>I do have an \r\nextremely small example.</span></div>\r\n<div dir=ltr align=left><span class=583145616-14082008>How do I \r\npost the code?</span></div>\r\n<div> </div>\r\n<div align=left><strong>Richard Mazza \r\n<br></strong>Web Application \r\nDeveloper</div>\r\n<div align=left>\r\n<div align=left></div>IT Core Systems \r\nEngineering</div>\r\n<div align=left>Intel Corporation. \r\nFolsom, California, USA<br>Office: (916) 356-3212<br>Cell:   (916) \r\n803-6259</div>\r\n<div> </div><br>\r\n<div class=OutlookMessageHeader lang=en-us dir=ltr align=left>\r\n<hr>\r\n<b>From:</b> yorkrj [mailto:notifications@codeplex.com] \r\n<br><b>Sent:</b> Thursday, August 14, 2008 9:55 AM<br><b>To:</b> Mazza, \r\nRich<br><b>Subject:</b> Re: Command Aborted [rte:33442]<br><br></div>\r\n<div></div>\r\n\r\n\r\n<p>From: yorkrj</p>\r\n<div id=ThreadNotificationPostBody>Could you post code that generates the \r\nerror?<br></div>\r\n",
+    "PostedDate": "2008-08-14T14:33:21.803-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111238",
+    "ThreadId": "33442",
+    "Html": "I created a Work Item in the issue tracker linked below. You can add a comment there and attach a file. I don't know why Codeplex decided not to allow attachments in the discussion area too.<br>\r\n<br>\r\nThanks!<br>\r\n<br>\r\n<a href=\"http://www.codeplex.com/rte/WorkItem/View.aspx?WorkItemId=7312\">http://www.codeplex.com/rte/WorkItem/View.aspx?WorkItemId=7312</a>\r\n",
+    "PostedDate": "2008-08-14T17:04:32.787-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111796",
+    "ThreadId": "33442",
+    "Html": "Thanks. Code is posted.\r\n",
+    "PostedDate": "2008-08-18T08:32:36.03-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "113614",
+    "ThreadId": "33442",
+    "Html": "Were you able to reporduce the problem with my sample code?\r\n",
+    "PostedDate": "2008-08-25T15:34:18.273-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "114132",
+    "ThreadId": "33442",
+    "Html": "Sorry, work has been really busy. I'll try to take a look this week.<br>\r\n",
+    "PostedDate": "2008-08-27T07:49:19.12-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116097",
+    "ThreadId": "33442",
+    "Html": "OK, I think I have a workaround/fix for you. If you move the Form tag from the Content Page to the Master Page, then the RTE seems to work. Placing the Form tag in the Master Page always seemed like better practice to me anyways. Give it a try and let me know how you make out.<br>\r\n<br>\r\nI think it's a strange Javascript timing bug in Internet Explorer:<br>\r\nhttp://support.microsoft.com/default.aspx/kb/927917<br>\r\n<br>\r\n",
+    "PostedDate": "2008-09-04T10:58:28.27-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116100",
+    "ThreadId": "33442",
+    "Html": "I moved the form tags to the master page. Same result.\r\n",
+    "PostedDate": "2008-09-04T11:04:32.41-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116104",
+    "ThreadId": "33442",
+    "Html": "I must be doing something differently than you. Could you post your new example? Thanks!\r\n",
+    "PostedDate": "2008-09-04T11:17:41.657-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116326",
+    "ThreadId": "33442",
+    "Html": "I discovered a fix for this problem. As it turns out, the MasterPage was just a red herring. The real cause is when the Form tag is not a direct descendant of the Body tag. Put another way, if you wrap the Form with anything like a Div, the RTE is going to throw this error. I'd like to know why it does that but for now there is a very reasonable workaround. Check out the file I uploaded in the <a href=\"http://www.codeplex.com/rte/WorkItem/View.aspx?WorkItemId=7312\">Work Item</a> and let me know if that works. The uploaded solution includes three examples, two that work and one that doesn't.<br>\r\n",
+    "PostedDate": "2008-09-05T06:21:49.563-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116346",
+    "ThreadId": "33442",
+    "Html": "That worked. Big Thanks.\r\n",
+    "PostedDate": "2008-09-05T07:57:38.267-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116352",
+    "ThreadId": "33442",
+    "Html": "Here is a dumb question. How do I access the data in the control? RTE1.text&nbsp;is empty\r\n",
+    "PostedDate": "2008-09-05T08:32:32.413-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116396",
+    "ThreadId": "33442",
+    "Html": "\r\n<div><span class=482074018-05092008>I have seen in the \r\ndiscussions that I need to call CopyText().</span></div>\r\n<div><span class=482074018-05092008>It is not \r\ndeclared?</span></div>\r\n<div><span class=482074018-05092008>Do I not need the \r\nCopyText function?</span></div>\r\n<div> </div>\r\n<div align=left><strong>Richard Mazza \r\n<br></strong>Web Application \r\nDeveloper</div>\r\n<div align=left></div>\r\n<div align=left>IT Core Systems \r\nEngineering</div>\r\n<div align=left>Intel Corporation. \r\nFolsom, California, USA<br>Office: (916) 356-3212<br>Cell:   \r\n (916) 803-6259</div>\r\n<div> </div>",
+    "PostedDate": "2008-09-05T11:54:58.1-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116403",
+    "ThreadId": "33442",
+    "Html": "<div dir=ltr>Yes, you will need to call the CopyText() javascript function. Like this...<br><pre id=line82>&lt;<span>input</span><span> type</span>=<span>&quot;submit&quot; </span><span>onclick</span>=<span>&quot;CopyText()&quot; </span><span>value</span>=<span>&quot;Post&quot; </span><span><span>/</span></span>&gt;</pre>\r\n<br>Hope this helps.<br><br><div>On Fri, Sep 5, 2008 at 2:55 PM, richmazza <span dir=ltr>&lt;<a href=\"mailto:notifications@codeplex.com\">notifications@codeplex.com</a>&gt;</span> wrote:<br><blockquote style=\"margin:0pt 0pt 0pt 0.8ex;padding-left:1ex\">\r\n   <div> <p>From: richmazza</p> <div>\r\n<div><span>I have seen in the \r\ndiscussions that I need to call CopyText().</span></div>\r\n<div><span>It is not \r\ndeclared?</span></div>\r\n<div><span>Do I not need the \r\nCopyText function?</span></div>\r\n<div> </div>\r\n<div align=left><b>Richard Mazza \r\n<br></b>Web Application \r\nDeveloper</div>\r\n<div align=left></div>\r\n<div align=left>IT Core Systems \r\nEngineering</div>\r\n<div align=left>Intel Corporation. \r\nFolsom, California, USA<br>Office: (916) 356-3212<br>Cell:   \r\n (916) 803-6259</div>\r\n<div> </div></div><div> <div> <p>Read the <a href=\"http://www.codeplex.com/rte/Thread/View.aspx?ThreadId=33442&ANCHOR#Post116396\">full discussion online</a>.</p> <p>To add a post to this discussion, reply to this email (<a href=\"mailto:rte@discussions.codeplex.com?subject=[rte:33442]\">rte@discussions.codeplex.com</a>)</p>\r\n <p>To start a new discussion for this project, email <a href=\"mailto:rte@discussions.codeplex.com\">rte@discussions.codeplex.com</a></p> <p>You are receiving this email because you subscribed to this discussion on CodePlex. You can <a href=\"http://www.codeplex.com/site/discussions/project/unsubscribe/rte\">unsubscribe or change your settings</a> on codePlex.com.</p>\r\n <p>Please note: Images and attachments will be removed from emails. Any posts to this discussion will also be available online at <a href=\"http://codeplex.com\">codeplex.com</a></p> </div> </div></div> </blockquote>\r\n</div><br></div>",
+    "PostedDate": "2008-09-05T12:29:53.72-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116410",
+    "ThreadId": "33442",
+    "Html": "Now when I click the post button I get this<br>\r\n<em>A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$editor=&quot;&lt;FONT face=Arial siz...&quot;).</em>\r\n",
+    "PostedDate": "2008-09-05T12:59:30.92-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116757",
+    "ThreadId": "33442",
+    "Html": "Ah, yes that nice little default security settings change from years back (.NET 1.1 timeframe??), seems to trip everyone the first time.<br>\r\n<br>\r\nAdd to your web.config:<br>\r\n<span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\">\r\n<p>&lt;</p>\r\n</span>\r\n<p>&nbsp;</p>\r\n</span>\r\n<p><span style=\"font-size:13px;color:#a31515\"><span style=\"font-size:13px;color:#a31515\">pages</span></span><span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\"> </span></span><span style=\"font-size:13px;color:#ff0000\"><span style=\"font-size:13px;color:#ff0000\">validateRequest</span></span><span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\">=</span></span><span style=\"font-size:13px\">&quot;</span><span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\">false</span></span><span style=\"font-size:13px\">&quot;</span><span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\">&gt;<span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\">&lt;/</span></span><span style=\"font-size:13px;color:#a31515\"><span style=\"font-size:13px;color:#a31515\">pages</span></span><span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\">&gt;<br>\r\n<br>\r\n<p>&nbsp;</p>\r\n</span></span></span></span></p>\r\n",
+    "PostedDate": "2008-09-08T00:32:40.93-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116872",
+    "ThreadId": "33442",
+    "Html": "I needed to create my own copy function because of using a master page.<br>\r\n<span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\">\r\n<p>&lt;script type=&quot;text/javascript&quot;&gt;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; function CopyHTML()<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>ctl00_ContentPlaceHolder1_</strong>editor = top.document.getElementById(editorId);<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>ctl00_ContentPlaceHolder1_</strong>editor.value = richeditor.toHtmlString();<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }&nbsp;&nbsp;&nbsp;&nbsp; <br>\r\n&lt;/script&gt;</p>\r\n</span>\r\n<p>&nbsp;</p>\r\n</span>\r\n<p><span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\"><br>\r\nWorks now\r\n<p>&nbsp;</p>\r\n</span></span></p>\r\n",
+    "PostedDate": "2008-09-08T07:31:45.657-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "116879",
+    "ThreadId": "33442",
+    "Html": "<div dir=ltr>Thanks for sharing your version of the CopyHTML function. We should probably integrate this into the project source at some point.<br><br><div>On Mon, Sep 8, 2008 at 10:31 AM, richmazza <span dir=ltr>&lt;<a href=\"mailto:notifications@codeplex.com\">notifications@codeplex.com</a>&gt;</span> wrote:<br>\r\n<blockquote style=\"margin:0pt 0pt 0pt 0.8ex;padding-left:1ex\">   <div> <p>From: richmazza</p> <div>I needed to create my own copy function because of using a master page.<br>\r\n\r\n<span style=\"font-size:13px;color:rgb(0, 0, 255)\"><span style=\"font-size:13px;color:rgb(0, 0, 255)\">\r\n<p><br>\r\n        function CopyHTML()<br>\r\n        {<br>\r\n            <b>ctl00_ContentPlaceHolder1_</b>editor = top.document.getElementById(editorId);<br>\r\n            <b>ctl00_ContentPlaceHolder1_</b>editor.value = richeditor.toHtmlString();<br>\r\n        }     <br>\r\n</p>\r\n</span>\r\n<p> </p>\r\n</span>\r\n<p><span style=\"font-size:13px;color:rgb(0, 0, 255)\"><span style=\"font-size:13px;color:rgb(0, 0, 255)\"><br>\r\nWorks now\r\n<p> </p>\r\n</span></span></p>\r\n</div><div> <div> <p>Read the <a href=\"http://www.codeplex.com/rte/Thread/View.aspx?ThreadId=33442&ANCHOR#Post116872\">full discussion online</a>.</p> <p>To add a post to this discussion, reply to this email (<a href=\"mailto:rte@discussions.codeplex.com?subject=[rte:33442]\">rte@discussions.codeplex.com</a>)</p>\r\n <p>To start a new discussion for this project, email <a href=\"mailto:rte@discussions.codeplex.com\">rte@discussions.codeplex.com</a></p> <p>You are receiving this email because you subscribed to this discussion on CodePlex. You can <a href=\"http://www.codeplex.com/site/discussions/project/unsubscribe/rte\">unsubscribe or change your settings</a> on codePlex.com.</p>\r\n <p>Please note: Images and attachments will be removed from emails. Any posts to this discussion will also be available online at <a href=\"http://codeplex.com\">codeplex.com</a></p> </div> </div></div> </blockquote>\r\n</div><br></div>",
+    "PostedDate": "2008-09-08T07:41:24.763-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "117249",
+    "ThreadId": "33442",
+    "Html": "Is it possible to put more than one Rich Text control onto a page?\r\n",
+    "PostedDate": "2008-09-09T09:00:44.923-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "117260",
+    "ThreadId": "33442",
+    "Html": "<div dir=ltr><div><blockquote style=\"margin:0pt 0pt 0pt 0.8ex;padding-left:1ex\"><div>Is it possible to put more than one Rich Text control onto a page? No. Sorry...<br>\r\n</div></blockquote></div><br></div>",
+    "PostedDate": "2008-09-09T09:27:24.233-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

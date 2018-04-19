@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have seen some issues in terms of dropdownlist positioning [ fonts, font sizes] when used in conjuction with master pages. There were also some rendering issues. This needs to be resolved by moving out the containter, for these dropdown list, as another javascript class similar to the one for color dialog & emoticon picker dialog, and also investigate the rendering issues.",
+    "LastUpdatedDate": "2013-02-14T12:46:58.267-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2007-11-07T10:33:26.21-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Master Page issues",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 4304
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

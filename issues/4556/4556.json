@@ -1,0 +1,95 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am getting \"Microsoft JScript runtime error: 'RteJustifyLeft' is undefined\" error, what is missing?\nThanks",
+    "LastUpdatedDate": "2013-02-14T12:46:55.73-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2007-11-26T11:42:44.663-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Microsoft JScript runtime error",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 6,
+    "Id": 4556
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I get this error message as well.  In my case, I am on the child of a MasterPage.",
+      "PostedDate": "2008-03-03T11:51:48.36-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-05-14T09:07:30.797-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-05-28T08:28:33.827-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "me too; using master page as well",
+      "PostedDate": "2008-05-28T08:29:11.17-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I'm not able to duplicate it. Is this still happening for anyone else? If you do get the error, please note which release or code changeset you are testing with and how you are able to generate the error.",
+      "PostedDate": "2008-07-02T06:33:48.413-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I get this error message in Firefox. I also use a AjaxExtentionControlTollkit",
+      "PostedDate": "2008-08-07T01:44:49.223-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Ok sorry. I've done some testing, and I realize, that this issue happens, when I put it inside DatailView.",
+      "PostedDate": "2008-08-07T02:04:57.457-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Same here. I got the control up and running very easy on a regular page but am encountering issues when using a master page....",
+      "PostedDate": "2009-06-04T02:33:37.647-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I am still getting this error.  Like motzart I am using this in a DetailsView.  The page the DetailsView is on has a masterpage with a ScriptManager, not sure if it matters.",
+      "PostedDate": "2010-05-18T17:30:17.103-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-05-18T17:31:41.227-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:55.73-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

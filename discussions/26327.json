@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "88085",
+    "ThreadId": "26327",
+    "Html": "\r\nCan someone tell me how to hide the TextView/HTMLView tabs without causing any issues?<br /><br />Thanks,<br /><br />Jim<br />",
+    "PostedDate": "2008-04-21T10:49:01.27-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "88325",
+    "ThreadId": "26327",
+    "Html": "\r\nIn the rte.cs file of the project.  Find the following line and comment it out:<br />tabstrip.AddTab(\"HtmlView\", \"OnHtmlView\");<br /><br />that should do it.<br />",
+    "PostedDate": "2008-04-22T12:58:14.813-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "88407",
+    "ThreadId": "26327",
+    "Html": "\r\nThanks.  I'll give it a try.  I assume this would require me to recompile the control?  Is it possible to use the control without it being compiled (i.e. including the source in my project)?<br />",
+    "PostedDate": "2008-04-22T20:23:57.683-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "88482",
+    "ThreadId": "26327",
+    "Html": "\r\nYes, you'll need to recompile.  I haven't tried adding the RTE to a project but it should be possible.  If you are using VS 2008 you could try clicking and dragging the RichTextEditor folder from the os File Explorer to the root project directory in Visual Studios solution explorer... this would probably work, but I haven't tried.  In 2005 you'd probably have to do the right mouse click on the project root and use add existing.<br />",
+    "PostedDate": "2008-04-23T06:22:27.04-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "88554",
+    "ThreadId": "26327",
+    "Html": "\r\nYou can also hide the tab by adding the following line:<br /><br />tabstrip.Visible = false;<br />",
+    "PostedDate": "2008-04-23T10:31:58.053-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111471",
+    "ThreadId": "26327",
+    "Html": "Where would you be putting the tabstrip.visible = false?&nbsp;&nbsp;&nbsp;&nbsp;\r\n",
+    "PostedDate": "2008-08-15T16:05:21.967-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

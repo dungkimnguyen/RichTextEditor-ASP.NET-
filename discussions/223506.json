@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "480284",
+    "ThreadId": "223506",
+    "Html": "I am trying to add texts to the text being written on the RTE with controls on the same page.\r\nIn my case I want to add fields from a table on the database to be part of the text the user is composing.\r\nThe problem is that every time I click on the button to add the new text to the existing text (already on the RTE) the text that was there disappears.\r\n\r\nMy guess is that when the page is refresh the RTE refreshes completely and loses it content.  That is not the behavior on a regular TextBox.\r\n\r\nAnyway, here is what I am doing on the code behind:\r\n   \r\n Protected Sub btnAddData_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnAddData.Click\r\n        RTE1.Text +=  &quot; [&quot; & ddlstTable.SelectedValue & &quot;.&quot; & ddlstColumn.SelectedValue & &quot;] &quot;\r\n   End Sub\r\n\r\nThanks,",
+    "PostedDate": "2010-08-13T09:49:54.56-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

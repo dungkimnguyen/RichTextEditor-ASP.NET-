@@ -1,0 +1,85 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I downloaded the current dll. I added a reference to it and added it to the toolbox (VS 08 Pro). I also added...\n \n<controls>\n...\n        <add tagPrefix=\"rte\" namespace=\"AjaxControls\" assembly=\"RichTextEditor\"/>\n...\n</controls>\n \n... to the web.config file and when I dropped the control to the aspx page and build, I get \"Unknown server tag 'rte:Rte'\" error.\n \nAm I missing something?",
+    "LastUpdatedDate": "2013-02-14T12:46:53.063-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2008-09-30T14:18:05.96-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unknown server tag",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 7708
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Are any of the developers of this control around?",
+      "PostedDate": "2008-10-01T05:01:44.19-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I also tried...\r\n\r\n<%@ Register Assembly=\"RichTextEditor\" Namespace=\"AjaxControls\" TagPrefix=\"cc1\" %>\r\n\r\n... at the top of the page and...\r\n\r\n<cc1:Rte runat=\"server\"></cc1:Rte>\r\n\r\n...still same error.",
+      "PostedDate": "2008-10-01T05:02:59.5-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Well, no one is responding... so I found another solution.\r\n\r\nhttp://freetextbox.com/\r\n\r\nIt works.",
+      "PostedDate": "2008-10-01T08:36:52.723-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Well, since no one is responding... I came up with my own solution.\r\n\r\nhttp://freetextbox.com\r\n\r\nIt works.",
+      "PostedDate": "2008-10-01T08:41:08.257-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Get a working one at freetextbox.com",
+      "PostedDate": "2008-10-01T08:45:35.273-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Did you put RichTextEditor.dll into your application's bin folder?  It works for me.   \r\n\r\nIn order to get the text (HTML) out of the control, I had to follow another developer's advice, and put the following into Rte.cs in the OnLoad event, and rebuild RichTextEditor.dll:\r\n\r\nPage.Form.Attributes.Add(\"onSubmit\", \"CopyText(); return true;\");\r\n\r\nHow is freetextbox working for you?  We may switch to that, or another RTE, if it works better.  ",
+      "PostedDate": "2008-10-12T06:52:10.177-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-10-12T06:52:28.723-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-01-20T12:39:59.673-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:53.063-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

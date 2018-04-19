@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "88078",
+    "ThreadId": "26325",
+    "Html": "\r\nI'm using the RTE control to compose email.  The problem I'm having is that it is the third control on my page (To, Subject, then RTE), but it is stealing the focus from the first item.  Any suggestions on how to fix this?<br /><br />Thanks in advance,<br /><br />Jim<br />",
+    "PostedDate": "2008-04-21T10:24:55.833-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "88327",
+    "ThreadId": "26325",
+    "Html": "\r\nI haven't had to do this, but here are some things that come to minf. have you tried explicitely setting the focus to the desired control in the Page Load event?  ie:<br />tbTitle.focus();<br /><br />If this doesn't work you could set up a javascript load event and maybe setting the focus there would work.<br /><br />I know the focus is being set in the rte code.... it probably shouldn't be.  but maybe the above two suggestions will help as a workaround<br />",
+    "PostedDate": "2008-04-22T13:06:21.383-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90098",
+    "ThreadId": "26325",
+    "Html": "\r\nThanks for the tips, but I haven't been able to get anything to work.  I've tried several methods in addition, but I think my problem is that no matter what I do, I get InitRte(); as the last entry in my &lt;script&gt; section.  I've looked through the code of the RTE to comment out the focus call, but there are many calls to focus and I'm not sure which one to comment out.  Can you tell me which one to comment out?  I'm guessing it's the call to this.GetWindow().focus() in RichTextEditor.prototype.Focus = function()?<br />",
+    "PostedDate": "2008-05-01T13:34:15.19-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90545",
+    "ThreadId": "26325",
+    "Html": "\r\nYes I think you are correct, calls to the RichTextEditor classes Focus function are what to look for.  The RTEStartup.js creates a RichTextEditor object called richeditor.  I have modified this area so much it is difficult to remember exactly what happens where in the original version.  But you are definetely on the right track.<br />",
+    "PostedDate": "2008-05-05T07:49:28.733-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "99255",
+    "ThreadId": "26325",
+    "Html": "I've turned this into an issue.<br>\r\n",
+    "PostedDate": "2008-06-17T05:31:41.767-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111253",
+    "ThreadId": "26325",
+    "Html": "This is has been fixed with change set 16197.\r\n",
+    "PostedDate": "2008-08-14T18:41:47.807-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

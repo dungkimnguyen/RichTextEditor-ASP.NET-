@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "57853",
+    "ThreadId": "17727",
+    "Html": "\r\nI notice that if you switch to HTML view in the editor it shows the HTML tags in UPPERCASE. To comply with the latest web standards should they not be in lowercase?<br />",
+    "PostedDate": "2007-11-12T06:20:01.197-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "57909",
+    "ThreadId": "17727",
+    "Html": "\r\nI think IE's innerHTML returns everything in uppercase here. You would find it displays in lowercase on firefox. You can always convert the tags on the server side before you save them to say your database.<br /><br /><div class=\"quote\" style=\"border: dotted .1em #aaa; border-left: none; border-right: none; font-style: italic; margin: 1em 0em 2.5em 3em;padding: .2em;\"><br />codeplex99 wrote:<br />I notice that if you switch to HTML view in the editor it shows the HTML tags in UPPERCASE. To comply with the latest web standards should they not be in lowercase?<br /><br /></div>",
+    "PostedDate": "2007-11-12T10:21:52.337-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "57979",
+    "ThreadId": "17727",
+    "Html": "\r\nYou're right, in FF it's all lowercase. <br /><br />The other difference that I just noticed between IE and FF is that when you bold a word it uses &lt;STRONG&gt; in IE and &lt;span style...&gt; in FF.<br />",
+    "PostedDate": "2007-11-12T19:24:03.787-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "73692",
+    "ThreadId": "22091",
+    "Html": "\r\nIs this control not being used?  Is there any place to download the DLL?  Should I just move on to another control?  <br />",
+    "PostedDate": "2008-02-13T14:48:10.123-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "84307",
+    "ThreadId": "22091",
+    "Html": "\r\nI've not been able to find the DLL either!  What 's the story here?  I think CodePlex is tracking to see how many people will search for hours to find the DLL.  They sure got me... <br />",
+    "PostedDate": "2008-04-01T13:57:08.84-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "84778",
+    "ThreadId": "22091",
+    "Html": "\r\nYou can go to the Source Code tab, download latest version of code, Build the Solution and use the DLLs it creates.  Don't know why some CodePlex projects have no release... Mrfinger only pawn in game of life...<br />",
+    "PostedDate": "2008-04-03T08:21:35.323-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "94418",
+    "ThreadId": "22091",
+    "Html": "I think the reason there's no release is that there are still too many issues/bugs with this project. Having a compiled dll ready to download would probably give the impression that it is more mature than it really is.<br>\r\n",
+    "PostedDate": "2008-05-23T09:54:26.643-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "96632",
+    "ThreadId": "22091",
+    "Html": "There is now a binary release posted.<br>\r\n",
+    "PostedDate": "2008-06-03T20:16:57.36-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

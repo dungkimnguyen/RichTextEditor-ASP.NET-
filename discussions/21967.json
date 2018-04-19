@@ -1,0 +1,90 @@
+[
+  {
+    "Id": "73232",
+    "ThreadId": "21967",
+    "Html": "\r\nHi<br /><br />I have frameset , and i am trying to load the page the RTE control is embedded<br />on load it is showing the following error (object required -&gt; InitRte)<br /><br />var tabstrip = new Microsoft.js.ui.TabStrip('tabstrip');var tabstrip<i>ctl00 = new Microsoft.js.ui.Tab(tabstrip,'tabstrip</i>ctl00','TextView','True');tabstrip.AddTab(tabstrip<i>ctl00);this.tabstrip</i>ctl00Click = new Microsoft.js.event.EventHandler(tabstrip<i>ctl00.uiElement,'click','OnTextView',this,false);Microsoft.js.event.EventManager.add(this.tabstrip</i>ctl00Click);var tabstrip<i>ctl01 = new Microsoft.js.ui.Tab(tabstrip,'tabstrip</i>ctl01','HtmlView','False');tabstrip.AddTab(tabstrip<i>ctl01);this.tabstrip</i>ctl01Click = new Microsoft.js.event.EventHandler(tabstrip<i>ctl01.uiElement,'click','OnHtmlView',this,false);Microsoft.js.event.EventManager.add(this.tabstrip</i>ctl01Click);InitRte();// --&gt;<br /><br />any solution for this?<br />",
+    "PostedDate": "2008-02-12T02:13:39.9-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "260214",
+    "ThreadId": "21967",
+    "Html": "<p>In the RTEStartup.js file, add a function:&nbsp;</p>\r\n<div style=\"color:Black;background-color:White\">\r\n<pre><span style=\"color:Blue\">function</span> GetEditorObject(editorId)\r\n{\r\n<span style=\"color:Blue\">if</span> (top.document.getElementById(editorId))\r\n\t<span style=\"color:Blue\">return</span> top.document.getElementById(editorId);\r\n<span style=\"color:Blue\">else</span>\r\n\t<span style=\"color:Blue\">return</span> document.getElementById(editorId);\r\n}\r\n</pre>\r\n</div>\r\n<p>Then replace all references to &quot;top.document.getElementById(editorId)&quot; and replace them with &quot;GetEditorObject(editorId)&quot; (except the reference within the new function you added, of course) This fixed the problem for me.</p>",
+    "PostedDate": "2009-11-24T06:56:16.4-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "275057",
+    "ThreadId": "21967",
+    "Html": "<p>Can u send me your page.I dont know how to make it work :(</p>",
+    "PostedDate": "2010-01-08T22:29:58.447-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "275218",
+    "ThreadId": "21967",
+    "Html": "<p>It wasn't the page I changed - it was the RTE project javascript files I made the change in, then recompiled the project.</p>\r\n<p>Essentially, the RTE uses &quot;top.document.getElementById(editorId)&quot; to get the editor object. &quot;top&quot; references your web page in the normal scenario, but if you're page is within a frame &quot;top&quot; references the top most web page - if this web page doesn't have an element with the same ID (which it won't :))&nbsp;the call fails.</p>\r\n<p>Because I'm naturally cautious changing anything - I decided to create a function that checks if &quot;top&quot; properly references a web page with this element&nbsp;ID in it, if so, the function returns that element, if not it returns the element in the current page.</p>\r\n<p>I then changed everywhere that calls top.document.getElementById to this call this new function and bingo - RTE now works in frames!</p>",
+    "PostedDate": "2010-01-09T13:28:13.44-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "275293",
+    "ThreadId": "21967",
+    "Html": "<p>finally i figure it out.Thank you <a id=\"ctl00_ctl00_MasterContent_Content_PostRepeater_ctl06_UserNameLink\" href=\"http://www.codeplex.com/site/users/view/fritterfatboy\">fritterfatboy</a></p>",
+    "PostedDate": "2010-01-10T01:27:20.24-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "276039",
+    "ThreadId": "21967",
+    "Html": "<p>I changed all top.document.getElementById(editorId) -&gt; GetEditorObject(editorId) include dosub() function in Default.aspx page and except your new function but ist not working.</p>\r\n<p>What can i do now ?</p>",
+    "PostedDate": "2010-01-12T00:08:03.14-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "276042",
+    "ThreadId": "21967",
+    "Html": "<p>What's the error you're getting, jabber?</p>",
+    "PostedDate": "2010-01-12T00:20:11.243-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "276049",
+    "ThreadId": "21967",
+    "Html": "<p>No error at all.I just cant type in main text editor.Like somethin blocking it.Im using firefox and vsw 2005 express.</p>\r\n<p>This is my file.Pls check it fot me.</p>\r\n<p><a href=\"http://rapidshare.com/files/334047146/Test.rar.html\">http://rapidshare.com/files/334047146/Test.rar.html</a></p>",
+    "PostedDate": "2010-01-12T00:35:45.953-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "276132",
+    "ThreadId": "21967",
+    "Html": "<p>Afraid a single file is of no use when finding errors with this - are you actually compiling the source code for this project before using it in your website? I didn't think VS express editions allowed you to compile project dlls.</p>",
+    "PostedDate": "2010-01-12T05:34:52.757-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "276258",
+    "ThreadId": "21967",
+    "Html": "<p>Now Im know what im missing.</p>\r\n<p>After changing JS file how to make RTE source to RTE no source dll file ^^!</p>",
+    "PostedDate": "2010-01-12T08:59:49.537-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "276567",
+    "ThreadId": "21967",
+    "Html": "<p>Can u send me your RTE no source files, pls. I dont have <span id=\"result_box\"><span style=\"background-color:#ffffff\" title=\"khả năng\">enough ability to make it. :(<br></span></span></p>",
+    "PostedDate": "2010-01-12T23:21:40.977-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

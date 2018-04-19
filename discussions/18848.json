@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "61807",
+    "ThreadId": "18848",
+    "Html": "\r\nhi, i was able to build a dll for rte but for some reason, i can't use it.i just followed the instruction in the home section of this project, i put the .dll file inside my bin directory. i have this before the contentplaceholder &lt;%@ Register Assembly=\"RichTextEditor\" Namespace=\"RichTextEditor\" TagPrefix=\"cc1\" %&gt; and then inside the placeholder, i have this &lt;cc1:RichTextEditor ID=\"Rte1\" Theme=\"Blue\" runat=\"server\" /&gt;. i have unknown server tag error. please help me.im not really sure what the problem is. thanks in advance.<br />",
+    "PostedDate": "2007-12-08T07:26:59.14-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "211963",
+    "ThreadId": "18848",
+    "Html": "<p>You need to modify namespace.</p>\r\n<p>&lt;%@ Register Assembly=&quot;RichTextEditor&quot; Namespace=&quot;AjaxControls&quot; TagPrefix=&quot;cc1&quot; %&gt;</p>",
+    "PostedDate": "2009-07-14T23:20:36.583-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

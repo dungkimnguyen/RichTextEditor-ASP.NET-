@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "64172",
+    "ThreadId": "19435",
+    "Html": "\r\nHi there,<br /><br />I am having trouble adding the RTE dll to my website.<br /><br />I have added a reference to the RichTextEditor.dll in my bin folder and I tried to add the control to one of my pages, but the page wouldn't load afterwards.<br /><br />I added the assembly reference at the top of the page as well. Not sure what to do now.<br /><br />Can anyone help me set this up?<br />",
+    "PostedDate": "2007-12-19T13:08:52.62-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "64211",
+    "ThreadId": "19435",
+    "Html": "\r\nHow did you get the dll? I don;t see a link to download it.<br />",
+    "PostedDate": "2007-12-19T16:12:58.517-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "64323",
+    "ThreadId": "19435",
+    "Html": "\r\nI got the dll from downloading the latest version on the Source Code page and compiling it. Is there a release version I can download?<br />",
+    "PostedDate": "2007-12-20T06:16:53.263-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "66024",
+    "ThreadId": "19435",
+    "Html": "\r\nDoes anyone know how to \"compile\" the downloaded files into a .dll file? When I downloaded the files there were just example folders with some ASP.NET files and that was about it.<br /><br />Any help would be appreciated.<br /><br />Many thanks.<br /><br />M.<br />",
+    "PostedDate": "2008-01-04T03:34:06.81-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

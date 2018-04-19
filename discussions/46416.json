@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "155027",
+    "ThreadId": "46416",
+    "Html": "I made change (removed emoticons button), built new dll using visual studio 2005 but now the editor is double spacing; i.e.: skips a line when I press 'enter'.  Hope someone has a solution...\r\n",
+    "PostedDate": "2009-02-06T04:11:10.933-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "162274",
+    "ThreadId": "46416",
+    "Html": "The version of the control in the release is more than 6 months older than the code in the code section so what you're seeing could have nothing to do with any changes you made. I would try building the unchanged source to see if it was your changes or something in the newer version of the RTE source. Also realize that &lt;p&gt; tags may look differently in the RTE versus your pages due to differences in CSS. Hope that helps.<br>\r\n",
+    "PostedDate": "2009-02-26T04:55:58.507-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

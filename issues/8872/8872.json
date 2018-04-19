@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When putting the control in a div tag that has its z-index set so that it overlaps other divs (layering), the control has the following issues:\n \n1. Font type and size drop downs disconnect from their controls. The lists appear several inches down the control from where they should be.\n2. Foreground and background color pickers, smiley picker, and link creator dialogs render underneath text box instead of on top of it.\n3. Text box does not resize properly. It will neither shrink if the parent control is smaller than the text box's default size, nor stretch if the parent control is larger.",
+    "LastUpdatedDate": "2013-02-14T12:46:52.417-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2009-01-09T06:34:32.323-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Putting control in a layered div breaks control",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8872
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This issue also happens when using the Modal Popup Extender (http://codeplex.com/atlascontroltoolkit).",
+      "PostedDate": "2009-01-09T07:39:47.047-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Issue #1 (Font type and size drop downs disconnecting) happens with me without setting z-index on my divs, only using relatively positioned divs with padding.",
+      "PostedDate": "2009-03-10T20:04:26.95-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:52.417-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Add an control attribute that can hide the HtmlView/TextView tabs. For instances where the users don't know HTML or would be confused by the tabs, etc.",
+    "LastUpdatedDate": "2017-12-14T14:33:51.407-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2007-11-14T15:02:39.75-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add attribute to hide HTML/TextView tabs",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 14,
+    "Id": 4439
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I had the same issue and went ahead and made my own modifycation. That turns out to be a bit difficult because the tabstrip is create during 'EnsureChildControls', this function is called on almost every get/set attribute value. Which means the sequence of attributes is getting to be important (unless you change the whole creation/attribute logic).\r\n\r\nI did it simplistic solution:\r\n        public Boolean ShowTabStrip\r\n        {\r\n            get\r\n            {\r\n                object o = ViewState[\"ShowTabStrip\"];\r\n                return (o == null) ? true : (Boolean)o;\r\n            }\r\n            set\r\n            {\r\n                ViewState[\"ShowTabStrip\"] = value;\r\n            }\r\n        }\r\n\r\nAnd put an if around the adding of the tapstrip in 'CreateChildControls'\r\n\r\nThen add 'ShowTabStrip=\"false\"' as the first attribute, works good enough for me, ideally the 'CreateChildControls' should be done as late as possible.",
+      "PostedDate": "2008-05-27T02:41:56.693-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-07-02T08:41:19.587-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-07-08T08:40:54.107-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-07-18T04:02:03.153-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-01-09T06:25:12.343-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-01-14T22:00:29.933-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-09-09T22:54:58.973-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:56.07-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-12-14T14:33:51.407-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

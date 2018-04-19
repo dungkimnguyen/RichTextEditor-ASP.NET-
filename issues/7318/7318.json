@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\n \nWhy am i unable to put two RTE controls on a single page?? Is it designed to be used as a singleton?? or is this a bug ??\n \nwhen i put two controls on a single aspx page, the second control doesn't fire it's events, \nany suggestions if i want to use two or more controls on the same page??",
+    "LastUpdatedDate": "2013-02-14T12:46:53.393-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2008-08-14T23:13:54.6-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unable to put two RTE Controls on a single page",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 7318
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This is a known issue. Unfortunately the fix is hard to implement. Originally the control was authored to be one per page but we're hoping to eventually support more than one per page.",
+      "PostedDate": "2008-08-15T04:26:50.833-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-08-18T14:49:48.67-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-01-18T11:48:00.667-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello,\r\n\r\nI´ve got the same problem that I cannot put two controls on one page. But I´ve got an other error message: There are several controls with the ID editor. FindControl needs a unique ID for controls. Maybe this would help you.",
+      "PostedDate": "2009-01-18T11:50:41.68-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-10-04T11:22:00.933-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:53.393-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

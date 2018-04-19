@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "104928",
+    "ThreadId": "31586",
+    "Html": "Is there a JavaScript function which will allow me to programatically insert text into the RTE?<br>\r\n<br>\r\nFor example, using the onclick attribute of an anchor tag, I would like to call a JavaScript function to programatically insert some text.<br>\r\n<br>\r\nThanks for your ideas.<br>\r\n<br>\r\n",
+    "PostedDate": "2008-07-15T15:06:17.68-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "105432",
+    "ThreadId": "31586",
+    "Html": "Never mind.&nbsp; I answered my own question. <br>\r\n<br>\r\nHere is the code to programmatically INSERT text into the RTE<br>\r\n<br>\r\n<span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\">\r\n<p>function</p>\r\n</span>\r\n<p>&nbsp;</p>\r\n</span>\r\n<p><span style=\"font-size:13px\"> insertMe(cntrl)\r\n<p>&nbsp;</p>\r\n<p>{ </p>\r\n<p>richeditor.Focus();</p>\r\n<p>&nbsp;</p>\r\n</span></p>\r\n<p><span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\">var</span></span><span style=\"font-size:13px\"> selCurrent = richeditor.GetDocument().selection.createRange();\r\n<p>&nbsp;</p>\r\n<p>selCurrent.type = richeditor.GetDocument().selection.type;</p>\r\n<p>&nbsp;</p>\r\n</span></p>\r\n<p><span style=\"font-size:13px;color:#0000ff\"><span style=\"font-size:13px;color:#0000ff\">var</span></span><span style=\"font-size:13px\"> replaceWith = document.getElementById(cntrl).innerText;\r\n<p>&nbsp;</p>\r\n<p>selCurrent.text = document.getElementById(cntrl).innerText;</p>\r\n<p>CopyText();</p>\r\n<p>} </p>\r\n</span></p>\r\n",
+    "PostedDate": "2008-07-17T09:59:55.18-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "280259",
+    "ThreadId": "31586",
+    "Html": "<p>I'm trying to find an equivalent of this for firefox and having a bit of trouble. Can someone help?</p>",
+    "PostedDate": "2010-01-21T13:54:34.71-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

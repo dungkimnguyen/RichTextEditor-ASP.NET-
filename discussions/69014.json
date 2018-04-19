@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "234822",
+    "ThreadId": "69014",
+    "Html": "<p>Hi there,</p>\r\n<p>I'm trying to do hyperlink by using RTE. But problem is while saving the text as RTE.text it taking the hyperlink target as parent folder from where I call RTE and then my link what ever I set. I want to set the target as it. Please help me. This is urgent.</p>",
+    "PostedDate": "2009-09-15T10:50:27.453-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "462167",
+    "ThreadId": "69014",
+    "Html": "<p>Hi,</p>\r\n<p>I came across this problem as well. I did a text replace on the RTE.Text to specify a target for every hyperlink found. Simple but effective:</p>\r\n<p><span style=\"font-size:x-small\"><span style=\"font-size:x-small\"><span style=\"font-size:x-small\">&lt;font size=&quot;2&quot;&gt;\r\n<p>RTE.Text.Replace(</p>\r\n&lt;/font&gt;<span style=\"font-size:x-small;color:#a31515\"><span style=\"font-size:x-small;color:#a31515\">&quot;&lt;A href&quot;</span></span><span style=\"font-size:x-small\">, </span><span style=\"font-size:x-small;color:#a31515\"><span style=\"font-size:x-small;color:#a31515\">&quot;&lt;A target=&quot;&quot;_blank&quot;&quot; href&quot;</span></span><span style=\"font-size:x-small\">).ToString</span></span></span></span></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-07-01T06:14:31.873-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "58301",
+    "ThreadId": "17851",
+    "Html": "\r\nI am not sure if I am missing something but I am getting some behavior with this control which right now makes it unusable and I was hoping it was just user-error on my behalf :)<br /><br />On a postback I am getting the text out via the .text property on the control.<br />Now if the control is in Text view then I get back regular un-escaped HTML; if in HTML view I am getting back exactly the same data except it is being HTML escaped.<br /><br />Is this the way it is supposed to be behaving? If so is there some way I can know on the postback whether I need to un-escape the HTML or not.<br /><br />If you need more information please let me know.<br /><br />Thanks for your help (and for letting my play with the control :)<br /><br />Mark<br />",
+    "PostedDate": "2007-11-14T19:49:02.11-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "58414",
+    "ThreadId": "17851",
+    "Html": "\r\nThat shouldn't be the case. I remember explicitly fixing that issue. I will take a look at it sometime today and let you know by tomorrow.<br />",
+    "PostedDate": "2007-11-15T10:15:57.283-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "58502",
+    "ThreadId": "17851",
+    "Html": "\r\nThanks for that skannan!<br /><br />We did download the lastest version on this week.<br /><br />Mark<br />",
+    "PostedDate": "2007-11-16T00:56:29.893-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "59936",
+    "ThreadId": "17851",
+    "Html": "\r\nHi skannan,<br /><br />Did you get a chance to check this out?<br />If it helps I have assembly version 1.0.2873.31232.<br /><br />Thanks again.<br /><br />Mark<br />",
+    "PostedDate": "2007-11-26T14:35:31.683-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "63772",
+    "ThreadId": "17851",
+    "Html": "\r\nI'm experiencing the same problem. I ended up running the value though HttpUtility.HtmlDecode method. It seems to leave the un-escaped text intact and converts the escaped text accordingly.<br />",
+    "PostedDate": "2007-12-18T07:39:11.167-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

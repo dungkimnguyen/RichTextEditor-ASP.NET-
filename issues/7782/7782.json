@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I paste data such as formatted Word text into the RTE control, then save into db blob field, then restore from db and put into RTE text field.   Sometimes the data overflows the control width, displaying beyond the control on the screen.    It should not overflow the control.... Can a wrap property be added to the control to prevent this? \nthanks",
+    "LastUpdatedDate": "2013-02-14T12:46:52.907-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2008-10-11T21:46:01.673-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Problem with text not wrapping",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7782
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

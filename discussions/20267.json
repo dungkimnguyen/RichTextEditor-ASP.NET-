@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "67307",
+    "ThreadId": "20267",
+    "Html": "\r\nI notice that in ASP.NET 3.5 there's a XhtmlTextWriter Class (<a href=\"http://msdn2.microsoft.com/en-us/library/system.web.ui.xhtmltextwriter.aspx\" class=\"externalLink\">http://msdn2.microsoft.com/en-us/library/system.web.ui.xhtmltextwriter.aspx<span class=\"externalLinkIcon\" style=\"font-family:Consolas, Courier New, Courier, Monospace;\"></span></a>). <br /><br />Could that be substituted to create XML-compliant output from the editor?<br />",
+    "PostedDate": "2008-01-10T23:13:19.8-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

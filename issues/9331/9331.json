@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When placing RTE in an ASP.Net 2.0 UpdatePanel the Menu breakes. You can't even select any button or write a text into the textbox. \nI've also provided a screenshot of the broken font family and size selector.",
+    "LastUpdatedDate": "2013-02-14T12:46:52.24-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2009-02-23T12:38:21.43-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "RTE breaks when placing in AJAX UpdatePanel",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9331
+  },
+  "FileAttachments": [
+    {
+      "FileId": 2771,
+      "FileName": "brokenRTE.jpg",
+      "DownloadUrl": ".\\2771"
+    }
+  ],
+  "Comments": []
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "90101",
+    "ThreadId": "26956",
+    "Html": "\r\nI'm using the Classic them for the RTE control and for some reason the right border is missing when you hover over the Cut, Copy, and Paste buttons. I've looked at the positioning and the ClassicToolBarImage.png and everything appears correct (left border always starts at multiple of 24 and goes for 23 pixels).  Any ideas?<br />",
+    "PostedDate": "2008-05-01T13:42:46.027-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "230936",
+    "ThreadId": "67934",
+    "Html": "<p>Hello; wonderful control! I am loading the contents of a file into&nbsp;the&nbsp;RTE on the Page_Load event. On the form's submission, I am attempting to access the contents using Request.Form(&quot;Main$editor&quot;). This only returns the contents of the file initially loaded; any changes made are not represented. If I switch to HTML view prior to submission, however, the changes do show up. I have tried adding&nbsp;&quot;CopyText();return true;&quot; to the button's OnClientClick event, but this seems to make no difference.</p>",
+    "PostedDate": "2009-09-03T16:51:52.18-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "436327",
+    "ThreadId": "67934",
+    "Html": "<p>Has anyone got an answer for this issue? Im having the same problem... Thanks</p>",
+    "PostedDate": "2010-04-27T23:23:37.427-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "496947",
+    "ThreadId": "67934",
+    "Html": "<p>I am also facing the same problem somebody help me please</p>",
+    "PostedDate": "2010-09-22T05:16:40.78-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "505408",
+    "ThreadId": "67934",
+    "Html": "<p>do this in the onClientClick event &quot;CopyText();&quot;</p>\r\n<p>and in onClick event you will find the html text in rteObject.Text property.</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-10-11T07:01:30.24-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "505410",
+    "ThreadId": "67934",
+    "Html": "<p>without CopyText() function , channges cannot b found after the postback.</p>\r\n<p>this function actually copies the content from client&nbsp;to the viewstate of the control and so it becomes available at serverside.</p>",
+    "PostedDate": "2010-10-11T07:03:45.837-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

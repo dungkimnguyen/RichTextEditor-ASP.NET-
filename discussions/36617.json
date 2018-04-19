@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "121445",
+    "ThreadId": "36617",
+    "Html": "<p dir=ltr style=\"margin-right:0px\">When I try to include the control in a FormView, it throws the following runtime error:<br>\r\n<br>\r\n<em>Microsoft JScript runtime error: 'RteJustifyLeft' is undefined<br>\r\n</em><br>\r\nHowever, when I take the control out of the FormView, it works perfectly.&nbsp; Any ideas what's going wrong?<br>\r\n<br>\r\nThanks in advance for your assistance!</p>\r\n",
+    "PostedDate": "2008-09-28T14:25:44.607-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

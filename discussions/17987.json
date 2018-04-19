@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "58743",
+    "ThreadId": "17987",
+    "Html": "\r\nI am developing Facebook application. When I run application I get bug the very first lines in JavaScript <br /><br />// Get the initial contents for the RichTextEditor from what is there in the textarea<br />contents =  top.document.getElementById(editorId).value;<br /><br />Access is denied. I think the problem is in cross-domain frame issue. Because I am hosting my aspx page (with rte) in IFrame of Facebook.com<br /><br />Look at similar problem with ajax asp.net <br />http://weblogs.asp.net/bleroy/archive/2007/01/31/how-to-work-around-the-quot-access-denied-quot-cross-domain-frame-issue-in-asp-net-ajax-1-0.aspx<br /><br />Best regards<br />Veroljub<br />",
+    "PostedDate": "2007-11-18T07:32:45.55-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "59041",
+    "ThreadId": "17987",
+    "Html": "\r\nThank Veki. I will take a look at it.<br /><br />Regards,<br />Kannan.<br />",
+    "PostedDate": "2007-11-20T05:59:56.907-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

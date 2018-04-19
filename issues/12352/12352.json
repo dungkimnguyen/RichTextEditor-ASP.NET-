@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have used this editor on web page. When i try to get the text bu using Rte1.Text.trim(), it is giving blank string. I am not sure why it is behaving strange. I request you to please help me out.",
+    "LastUpdatedDate": "2013-02-14T12:46:50.987-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2010-03-29T09:36:18.167-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Not able to get the Editor Content on code behind",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 12352
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I have found that unless you switch to HTML view in the control, the Text property will not be populated correctly.  This is using a base install of the control.",
+      "PostedDate": "2010-04-23T08:38:09.64-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:50.987-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "111417",
+    "ThreadId": "33617",
+    "Html": "Hi i m fawad,<br>\r\nI m usign rich text editor in an dnn application, when i try to open the page on which i have placed this control, an error of operation aborted occurs.<br>\r\n<br>\r\nThat is internet explorer cannot open the site<br>\r\noperation aborted<br>\r\n<br>\r\nThe same page is working fine in firefox.<br>\r\n<br>\r\nKindly help me in this matter\r\n",
+    "PostedDate": "2008-08-15T12:31:47.45-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111435",
+    "ThreadId": "33617",
+    "Html": "Are you using the release or a recent source change set? could you post the error details? how are you using the control? Thanks!<br>\r\n",
+    "PostedDate": "2008-08-15T13:16:57.99-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

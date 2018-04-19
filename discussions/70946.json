@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "241856",
+    "ThreadId": "70946",
+    "Html": "<p>Hi to all,</p>\r\n<p>Thank you for creating RTE control, it is a big help for my project now. But i have a little problem with this, my project'&nbsp;culture is in Arabic (Ar-Sa) and i need to set the RTE to arabic writing style in which the direction is RTL (Right To Left)&nbsp;instead of LTR.&nbsp; I did some modification in the RTE source, unfortunatley it has no effect. Can anyone teach me how can i set that direction?</p>\r\n<p>Your response id higly appreciated.</p>\r\n<p>Thank you in advance.</p>\r\n<p>-jrbvillanueva</p>",
+    "PostedDate": "2009-10-04T05:27:34.323-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

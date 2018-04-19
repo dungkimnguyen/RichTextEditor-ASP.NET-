@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "452877",
+    "ThreadId": "215291",
+    "Html": "i want to insert data from richtext editor to database. but all column is insert .but richtext editor is null. data type of richtexteditor column-\r\nnvarchar(max). id of richtexteditor is rte1 . here is my code-\r\n\r\nprotected void btnsubmit_Click(object sender, EventArgs e)\r\n  {\r\n      using (DataClassesDataContext context = new DataClassesDataContext())\r\n      {\r\n          obimot customer = new obimot\r\n          {\r\n              Subject = TextBox1.Text,\r\n              pname = TextBox2.Text,\r\n              mobileno = TextBox3.Text,\r\n\r\n              pprofession = TextBox4.Text,\r\n              Description =Rte1.Text,\r\n\r\n          };\r\n          context.obimots.InsertOnSubmit(customer);\r\n          context.SubmitChanges();\r\n      }\r\n\r\nplease help me. i am in big trouble. ",
+    "PostedDate": "2010-06-08T02:42:30.287-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "453676",
+    "ThreadId": "215291",
+    "Html": "<p>There is a javascript function built into the grid that may solve your issue.</p>\r\n<p>On your command button, call the JavaScript function <span><strong>CopyText()</strong> on the client side before postback. <br></span></p>\r\n<p><span><br>Medmerd<br></span></p>",
+    "PostedDate": "2010-06-09T12:30:23.303-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "60321",
+    "ThreadId": "18454",
+    "Html": "\r\nHi,<br /><br />On postback, the .Text property always returns an empty string. Trying to use Request.Form on the control name also does not work.<br /><br />Am I doing something wrong?<br />",
+    "PostedDate": "2007-11-28T13:02:33.903-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "60327",
+    "ThreadId": "18454",
+    "Html": "\r\nA follow up, I discovered that .Text is populated if I submit the form when RTE is in HTML View, if it is in WYSIWYG view, I get nothing.<br />",
+    "PostedDate": "2007-11-28T13:12:47.673-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "63769",
+    "ThreadId": "18454",
+    "Html": "\r\nI used the Request.Form|parent$...$editor| to extract the value.<br />",
+    "PostedDate": "2007-12-18T07:30:58.34-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

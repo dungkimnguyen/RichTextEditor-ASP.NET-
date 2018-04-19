@@ -1,0 +1,100 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Whenever I set the height using the control's height attribute (ex. 250 or 250px), the control doesn't render correctly. It seems like the IFrame height is still being rendered as 500px;\nExample:\n \n<rte:RichTextEditor ID=\"rteSummary\" Theme=\"Blue\" runat=\"server\" Height=\"250\"   />",
+    "LastUpdatedDate": "2013-06-14T00:14:03.157-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2007-11-14T14:56:24.383-08:00",
+    "Status": {
+      "Name": "Resolved",
+      "Id": 7
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Setting the height and width via control attribute",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 4438
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Height and Width attributes are currently harded coded in to the applicaiton .  It would be great if we could manage the size of the control.",
+      "PostedDate": "2008-02-29T00:08:38.773-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-05-27T11:19:05.357-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-06-03T20:33:04.307-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-06-16T21:20:23.383-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Resolved by change set 11713.",
+      "PostedDate": "2008-06-16T21:26:18.197-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Resolved by change set 11713.\r\n\r\n** Closed by yorkrj 6/16/2008 9:20 PM",
+      "PostedDate": "2008-08-14T13:31:32.887-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-08-14T13:31:33.137-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-08-14T13:31:40.247-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:56.25-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T02:53:16.64-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T02:53:16.753-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-14T00:14:03.157-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

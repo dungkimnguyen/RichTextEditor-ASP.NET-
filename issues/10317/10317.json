@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When resetting the application domain (e.g. recycling App Pool, starting/stopping App Pool, resetting IIS, restarting the server), the icons break and cannot be viewed.  The only way to get them back is to re-enter the information into the RTE control.",
+    "LastUpdatedDate": "2013-02-14T12:46:51.513-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2009-07-17T14:14:05.847-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Application Domain Reset causes icons to be lost",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10317
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

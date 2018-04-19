@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "130109",
+    "ThreadId": "39225",
+    "Html": "Any chance of getting a button added that will insert tables?",
+    "PostedDate": "2008-11-04T18:17:41.41-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "134278",
+    "ThreadId": "39225",
+    "Html": "That's a great idea. How would you like the user interface to function? Or are there any particularly good implementations that we can use as inspiration?<br>\r\n",
+    "PostedDate": "2008-11-21T08:23:51.603-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "135058",
+    "ThreadId": "39225",
+    "Html": "There are a lot of javascript based Rich Text Editors out there, and most of them have some kind of tables button.<div>A simple example would be found here at Dynamic Drive (<span><a href=\"http://www.dynamicdrive.com/dynamicindex16/richtexteditor/index.htm\">http://www.dynamicdrive.com/dynamicindex16/richtexteditor/index.htm</a></span>)<br><div><br></div><div>Typical interfaces request the number of rows and columns and most will accept parameters for width, alignment, borders, padding, spacing, etc.</div><div><br></div><div>This tool would have been perfect for my CMS application I have for my intranet users, but because it lacks tables, it will limit my content contributors ability to easily format the layout of their web content.  I'm eagerly awaiting an update!  :)</div></div>",
+    "PostedDate": "2008-11-25T02:22:54.797-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

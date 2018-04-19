@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "119876",
+    "ThreadId": "36132",
+    "Html": "Hi There<br>\r\n<br>\r\nI have a linkbutton that when I press it, RTE appears.&nbsp;In the background I got a hdn value of 1 and 0 depending on if its shown or not.. pretty standard stuff.<br>\r\n<br>\r\nHowever when its &quot;hidden&quot; and reappears I cannot press on any of the buttons nor edit. It's like the&nbsp;control has been disabled. It in a td without anything special.<br>\r\n<br>\r\nI have tried the official release and latest build without any success. Any hints would be great.<br>\r\n<br>\r\nThanks, Shawn\r\n",
+    "PostedDate": "2008-09-21T09:32:40.64-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "120016",
+    "ThreadId": "36132",
+    "Html": "I have heard of others having trouble with UpdatePanels and RTE. So if you are trying a partial post back, try it with a full post back instead.<br>\r\n<br>\r\nAlso, make sure there aren't any JavaScript errors occurring.<br>\r\n",
+    "PostedDate": "2008-09-22T06:02:49.61-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

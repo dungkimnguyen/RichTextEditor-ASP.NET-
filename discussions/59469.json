@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "201321",
+    "ThreadId": "59469",
+    "Html": "<p>&nbsp;Hy,</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;I tried to use the RTE ASP.Net control and I have a problem while using iframes. I have a page which has several tabs. In some tabs, I want to display comments in a RTE which can be stored after.</p>\r\n<p>&nbsp;For the moment, I use an iFrame for each tab ans in the iframes the component doesn't display at all... When I refresh the frame, all is fine. Could someone tell me if he has any idea of what happens and how ot solve it??</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp; Thanks in advance,</p>\r\n<p>&nbsp;&nbsp; Julien.</p>",
+    "PostedDate": "2009-06-14T10:18:18.033-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

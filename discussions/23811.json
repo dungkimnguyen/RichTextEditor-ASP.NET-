@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "79813",
+    "ThreadId": "23811",
+    "Html": "\r\nWe have a requirement to use this control in one of our solutions. However part of the requirement it to turn off much of the User buttons. We only require, hyper-link, bold, italic, underline, font size, bullet points for our client. We noticed you can edit which buttons are displayed in the rte.cs file; we had to edit out all the java script for Font and background Color as well as all the Justify functions. <br /><br />We now have a problem in that the buttons do not display properly and cannot find the location either in CSS or in the code as to the layout of the buttons for the rollovers. Any ideas how we can make the tool bar appear nice again or which bits of code we should be looking at ???<br /><br />I think in future version of this it would be nice to be able to select how big you want this control to be and also which buttons you would allow users the option of using. Otherwise this is a very nice control !<br /><br />Best regards in advance<br />Stephen<br />",
+    "PostedDate": "2008-03-11T13:37:23.903-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "80423",
+    "ThreadId": "23811",
+    "Html": "\r\nHmm,<br />  I have made similar modifications and do not experience any trouble.  What display issues are you encountering?  If I remember correctly when you remove things from the toolbar you should not change indexing the same for the remainder.  ToolBar.cs, ToolBar.js &amp; ToolBarButton.cs are the areas which of code which provide the toolbar functionality.<br />",
+    "PostedDate": "2008-03-13T12:42:36.987-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

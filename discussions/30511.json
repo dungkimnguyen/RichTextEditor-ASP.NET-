@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "101592",
+    "ThreadId": "30511",
+    "Html": "Is there an function to paste existing html into the RTE at startup and view it in the Textview?<br>\r\n<br>\r\nShort Question , hu? ;-)<br>\r\n",
+    "PostedDate": "2008-06-30T06:36:28.147-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "101636",
+    "ThreadId": "30511",
+    "Html": "Hi ren,<br>\r\n<br>\r\nIf you set the Text property to whatever html you want to see that should work.<br>\r\n<br>\r\nE.g. <br>\r\n<blockquote>\r\nprotected void Page_Load(object sender, EventArgs e)<br>\r\n{<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;\r\nrte.Text = &quot;&lt;STRONG&gt;Hi Ren!&lt;/STRONG&gt;&lt;/BR&gt;&lt;I&gt;Tags have disappeared&lt;/I&gt;&quot;;<br>\r\n}<br>\r\n<br>\r\n</blockquote>Hope this helps!<br>\r\nGreg<br>\r\n",
+    "PostedDate": "2008-06-30T08:53:11.457-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "101728",
+    "ThreadId": "30511",
+    "Html": "Thank you, I´ve figured it out.<br>\r\n<br>\r\njust added a funktion<br>\r\n<br>\r\nfunction PasteExisting(result)<br>\r\n{<br>\r\n&nbsp;&nbsp;&nbsp; richeditor.GetDocument().body.textContent= result;<br>\r\n}<br>\r\n<br>\r\n<br>\r\ninto the startup.js , so I can call it by script<br>\r\n<br>\r\nThanks anyway<br>\r\n<br>\r\nRen<br>\r\n",
+    "PostedDate": "2008-06-30T14:14:48.047-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

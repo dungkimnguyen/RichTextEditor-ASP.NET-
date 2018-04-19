@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "66809",
+    "ThreadId": "20140",
+    "Html": "\r\nOn a postabck RTE.Text property returns empty string. Is there any other property that I can use to get the text?<br />Can anybody  please send me the exact code to retreive the text?<br />",
+    "PostedDate": "2008-01-08T13:03:12.063-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "105700",
+    "ThreadId": "20140",
+    "Html": "Have you added the CopyText Client Side J function?<br>\r\n<br>\r\nSee&nbsp;<a href=\"http://www.codeplex.com/rte/Thread/View.aspx?ThreadId=28773\">http://www.codeplex.com/rte/Thread/View.aspx?ThreadId=28773</a>\r\n",
+    "PostedDate": "2008-07-18T12:56:30.3-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "106001",
+    "ThreadId": "20140",
+    "Html": "This issue seems to trip up a lot of people. I'm planning on removing the requirement of having to call the Cient Side Javascript function manually.<br>\r\n",
+    "PostedDate": "2008-07-21T07:43:01.177-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

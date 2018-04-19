@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "190258",
+    "ThreadId": "56318",
+    "Html": "<p>Hi, all!</p>\r\n<p>I've downloaded source code this control and looked all files when code contains P tag. Replaces to DIV tag, recompiled.<br>And then I write the text and see html code, the contol shows me that my text into div tags.</p>\r\n<p>But if I press Ctrl+A and remove all text and write again, new text will be into P tags(((</p>\r\n<p>How can I always&nbsp;use div tags??? Is it possible?</p>",
+    "PostedDate": "2009-05-14T07:47:22.783-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

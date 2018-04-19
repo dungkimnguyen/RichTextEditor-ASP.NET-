@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "547274",
+    "ThreadId": "241298",
+    "Html": "\r\n<p>The last code update to this project was back in 2008 and there were known issues with the control back then. The primary developer and myself are not actively updating the control. Do note that there are potential XSS security vulnerabilities with this\r\n control unless you validate and/or filter any form inputs from it on the server. It would take a lot of work to get this where it needs to be.</p>\r\n<p>There are other great WYSIWYG web editors for ASP.NET available. One alternative to look at is the HTMLEditor that is a part of recent versions of the ASP.NET AJAX Control Toolkit which can be found here on CodePlex.</p>\r\n<p>All that being said, it was a lot of fun contributing to this control and it remains an interesting collection of code to take a look at and learn from.</p>\r\n",
+    "PostedDate": "2011-01-11T06:04:47.697-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

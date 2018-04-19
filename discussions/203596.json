@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "413357",
+    "ThreadId": "203596",
+    "Html": "<p>Hi Guys,</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;I am trying to add more then one Rich Text Editor to same page but only one works and others are disabled? Does anyone know what might be causing this or is it designed to work with only one per program?</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks,</p>\r\n<p>CJ</p>",
+    "PostedDate": "2010-03-02T13:03:31.963-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "443069",
+    "ThreadId": "203596",
+    "Html": "<p>Hello CJ</p>\r\n<p>The control has unfortnatly not been created in a way that allows more then one active control per page at a time.<br>Please refer to the Issue Tracker Item <a title=\"Adding more than one rich text editor inside the form\" href=\"http://rte.codeplex.com/WorkItem/View.aspx?WorkItemId=6291\">http://rte.codeplex.com/WorkItem/View.aspx?WorkItemId=6291</a><span id=\"ctl00_ctl00_MasterContent_Content_TitlePanel\"><span id=\"ctl00_ctl00_MasterContent_Content_TitleLabel\"> for more details</span></span></p>\r\n<p>&nbsp;</p>\r\n<p><span><span>Medmerd<br></span></span></p>\r\n<p>&nbsp;</p>\r\n<p><span><span><br></span></span></p>",
+    "PostedDate": "2010-05-14T13:49:57.693-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

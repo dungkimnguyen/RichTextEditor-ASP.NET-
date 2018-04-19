@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "270649",
+    "ThreadId": "79046",
+    "Html": "<p>I've seen others with this problem using nested masterpages but I'm not using nested masterpages. Perhaps I am doing something wrong.</p>\r\n<p>I'm just trying to test this in an .aspx page. I have this with my imports:</p>\r\n<p>&lt;%@ Register Assembly=&quot;RichTextEditor&quot; Namespace=&quot;AjaxControls&quot; TagPrefix=&quot;cc1&quot; %&gt;</p>\r\n<p>and in the body:</p>\r\n<p>&lt;cc1:RichTextEditor ID=&quot;rte1&quot; runat=&quot;server&quot; /&gt;</p>\r\n<p>At first I downloaded the .dll and added it to my bin directory, but that gave me:</p>\r\n<p>Object reference not set to an instance of an object in the toolbar.cs file in a directory that didn't exist.</p>\r\n<p>So I got the source and built it, then put the resulting .dll and .pdb files in my bin directory, now I get the same 'Object reference not set to an instance of an object.' But this time I have the source for the error:</p>\r\n<p>Line 187:<br>Line 188:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cssLink.Href = Global.Instance.Resource.GetUrl(this.Page, &quot;AjaxControls.Toolbar.css&quot;);<br><span style=\"color:#ff0000\">Line 189:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.Page.Header.Controls.Add(cssLink);<br></span>Line 190:<br>Line 191:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Global.Instance.Resource.RegisterClientScript(this.Page, this.Controls, &quot;AjaxControls.Microsoft.js&quot;);</p>\r\n<p>What do I need to do to fix this error?</p>",
+    "PostedDate": "2009-12-24T13:02:48.717-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "270656",
+    "ThreadId": "79046",
+    "Html": "<p>Nevermind, I got it working. If I had just looked at the code a minute, I would have realized I needed runat=&quot;server&quot; in my &lt;head&gt; tag for this to work</p>",
+    "PostedDate": "2009-12-24T14:48:02.253-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

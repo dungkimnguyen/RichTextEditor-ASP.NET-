@@ -1,0 +1,91 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "richmazza\nWed at 10:12 AM\n\t\nI am using a master page with .NET 3.5 and IE 6.0. I keep getting Command Aborted error after the control displays, and then page cannot be displayed.  Doesn't fail if there is no master page.\n \n\t\nReply\nyorkrj\nDeveloper\nToday at 12:18 PM\n\t\nCould you post code that generates the error?\n\t\nReply\nrichmazza\nToday at 5:33 PM\n\t\nI am new to this forum.\nI do have an extremely small example.\nHow do I post the code?",
+    "LastUpdatedDate": "2013-02-14T12:46:53.573-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2008-08-14T17:01:53.043-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Command Aborted",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7312
+  },
+  "FileAttachments": [
+    {
+      "FileId": 2028,
+      "FileName": "TestRTE.zip",
+      "DownloadUrl": ".\\2028"
+    },
+    {
+      "FileId": 2086,
+      "FileName": "TestRTE.zip",
+      "DownloadUrl": ".\\2086"
+    },
+    {
+      "FileId": 2094,
+      "FileName": "TestRTEwithFix.zip",
+      "DownloadUrl": ".\\2094"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Fails on IE, works on firefox.",
+      "PostedDate": "2008-08-15T06:55:58.24-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-08-15T06:55:58.79-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "With form tag in master page",
+      "PostedDate": "2008-09-04T12:23:27.513-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-09-04T12:23:28.327-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "A workaround has been found.",
+      "PostedDate": "2008-09-05T06:16:55.45-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-09-05T06:16:56.183-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:53.573-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

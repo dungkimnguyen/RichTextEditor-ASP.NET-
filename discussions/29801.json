@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "99313",
+    "ThreadId": "29801",
+    "Html": "In order for the RTE to be useful in a large set of circumstances without having to modify the source and re-build, we'll need to have a large number of settings. I'm at a loss as to how to organize these settings. For instance, we'll probably want a collection of settings for each toolbar button such as visibility and the like. Are there examples to draw from? What are your thoughts on how to organize these settings? For that matter, what should be configurable?<br>\r\n",
+    "PostedDate": "2008-06-17T09:21:19.583-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "99756",
+    "ThreadId": "29801",
+    "Html": "My thoughts on questions 1 &amp; 2:<br>\r\nMy opinion would be to use an xml configuration file(s) with a schema.&nbsp; Look at the xml file i18N.xml and it's schema i18N.xsd (in the RTE proj) for an example of what I mean.&nbsp; Maybe have some type of Settings Class(es) to represent these xml files.&nbsp;&nbsp;Properties would need to&nbsp;be added to the rte to specify the locations of the XML&nbsp;config files.&nbsp; If you need more examples let me know.<br>\r\n<br>\r\nMy Thoughts on question 3:<br>\r\nI've always been a fan of being able to adjust as much as possible through config files.&nbsp; Using themes and allowing the config to specify CSS Classes is a good way of reducing the amount of &quot;configuration&quot; code, while still allowing lot's of customization.<br>\r\n<br>\r\n",
+    "PostedDate": "2008-06-19T08:04:46.463-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

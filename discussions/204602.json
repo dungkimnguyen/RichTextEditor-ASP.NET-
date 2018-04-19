@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "416797",
+    "ThreadId": "204602",
+    "Html": "<p>i have downloded the richtexteditor but what are the steps to use the editor is not known to me, so kindly tell me about that.</p>\r\n<p>where to save the dll.&nbsp; where to save the unzip file and all that.</p>",
+    "PostedDate": "2010-03-10T22:19:49.207-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "443071",
+    "ThreadId": "204602",
+    "Html": "<p>Hello</p>\r\n<p>You don't really &quot;install&quot; the control per say. You only need to reference the dll into your project file. <br>If you want the drag/drop functionality of normal .net controls you can add this to any tool bar.</p>\r\n<p>&nbsp;</p>\r\n<p>Medmerd</p>",
+    "PostedDate": "2010-05-14T13:53:05.75-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

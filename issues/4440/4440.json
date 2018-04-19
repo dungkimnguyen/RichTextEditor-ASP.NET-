@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Control 'rteSummary' referenced by the ControlToValidate property of 'RequiredFieldValidator2' cannot be validated.\n \nIs it possible to have the RTE have native support RequiredFieldValidators?",
+    "LastUpdatedDate": "2013-02-14T12:46:55.917-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2007-11-14T15:05:33.393-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add support for validation",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 6,
+    "Id": 4440
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This is required for me to use this control, which I will start doing on our apps when it is done :)",
+      "PostedDate": "2008-08-01T13:33:41.08-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "blovett\r\nMon at 9:26 PM\r\n\t\r\nI would like to make the suggestion of adding a validation property with a metadata attribute.  If I understand this correctly, it will allow the RTE to be a target of validation controls.  The obvious target would be the Text properity.\r\n\r\nhttp://msdn.microsoft.com/en-us/library/system.web.ui.validationpropertyattribute.aspx\r\n\r\n\r\n\t\r\nReply\r\nyorkrj\r\nDeveloper\r\nToday at 12:14 PM\r\n\t\r\nThanks for the heads up. There are additional challenges to overcome related to validation:\r\n\r\n   1. Text property is refreshed \"on demand\" via a Javascript function so client side validation will need to account for that.\r\n   2. Required validation, which is the validation most developers want with RTE, needs to take HTML markup into account. For instance should \"<div></div>\" pass required validation?\r\n   3. Others... ???\r\n\r\n",
+      "PostedDate": "2008-08-14T09:25:13.367-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:55.917-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

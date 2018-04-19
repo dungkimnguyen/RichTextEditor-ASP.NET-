@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "90358",
+    "ThreadId": "27058",
+    "Html": "\r\nHi friends<br />i need you urgent Assisenatnce. i am using Rich text editor and no doubt it runs super with less effort. i have a small problem while running in the firefox. i am using  this line of code<br /> editor.value = richeditor.toHtmlString();<br />now when firfox consol hit this line of code it show exception and it won't allow my application to run furter. i am not sure how i can handle this situation. i event try to put it as <br />editor.value = richeditor.text;<br />but than it says the value is undefine. so please help me guys. i am working on VS2005<br />",
+    "PostedDate": "2008-05-03T07:22:20.173-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90536",
+    "ThreadId": "27058",
+    "Html": "\r\nHello,<br />  I do not have much experience with firefox, but the way you describe the problem makes me think that it could be a Page Request Validation issue.  A quick way to test this is to set the page validation property to false by doing the following:  &lt;%@ Page <a href=\"http://www.codeplex.com/rte/Wiki/View.aspx?title=...%20some%20other%20stuff%20...\">... some other stuff ...</a> ValidateRequest=\"false\" %&gt;  .  If this doesn't do the trick, perhaps someone else can offer advice.<br />",
+    "PostedDate": "2008-05-05T07:17:27.5-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

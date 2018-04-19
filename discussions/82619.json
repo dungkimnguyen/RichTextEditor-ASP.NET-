@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "283964",
+    "ThreadId": "82619",
+    "Html": "<p>Hi All,</p>\r\n<p>first: It is a good idea to tell more about &quot;how&quot; to install the tool. A simple &quot;Drag&quot; and usage like &quot;&lt;cc1:RichTextEditor ...&quot; isnt it.</p>\r\n<p>Either you add a &quot;&lt;%@ Register Assembly=&quot;RichTextEditor&quot; Namespace=&quot;AjaxControls&quot; TagPrefix=&quot;cc1&quot; %&gt;&quot; on top of your markup page, or (better):</p>\r\n<p>add in Web.Config like &quot;&lt;add tagPrefix=&quot;rte&quot; namespace=&quot;AjaxControls&quot; assembly=&quot;RichTextEditor&quot;/&gt;&quot; in section pages | control.</p>\r\n<p>But, may be, you think about all USers of the tool are profi enough to do it by themself :-)</p>\r\n<p>Okay. Much more important:</p>\r\n<p>==&gt; How can i get access to the content of the rte? I await properties like &quot;HtmlText&quot; or something like that to have access to that content.</p>\r\n<p>==&gt; I implement a button to test the rte. But in the click-event i did not see the text input made before. How can i get access to the current content?</p>\r\n<p>Regards</p>",
+    "PostedDate": "2010-01-31T10:07:36.053-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "284314",
+    "ThreadId": "82619",
+    "Html": "<p>Cool Tool without Reply/Support is a &quot;No Tool&quot;... :-(</p>",
+    "PostedDate": "2010-02-01T09:25:53.957-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "371755",
+    "ThreadId": "82619",
+    "Html": "<p>Not sure if you figured this out yet, or not...maybe too little too late. I found this on another post.</p>\r\n<div id=\"ctl00_ctl00_MasterContent_Content_PostRepeater_ctl02_BodyDiv\">\r\n<p>You need to modify namespace.</p>\r\n<p>&lt;%@ Register Assembly=&quot;RichTextEditor&quot; Namespace=&quot;AjaxControls&quot; TagPrefix=&quot;cc1&quot; %&gt;</p>\r\n</div>",
+    "PostedDate": "2010-02-24T12:41:50.253-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "473626",
+    "ThreadId": "82619",
+    "Html": "I used it for email editor. After To and From field i used it but its not work finely. what should i do to execute it successfully? \r\nIs there any solution to overcome this problem? ",
+    "PostedDate": "2010-07-28T04:52:05.443-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "473644",
+    "ThreadId": "82619",
+    "Html": "<p>I used Richtext editor&nbsp; but now how to access its values .?</p>\r\n<p>I want to send whole message value to another method.</p>\r\n<p>&nbsp;</p>\r\n<p>How to do it?</p>",
+    "PostedDate": "2010-07-28T05:24:12.083-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

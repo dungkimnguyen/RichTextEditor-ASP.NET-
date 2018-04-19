@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "116975",
+    "ThreadId": "35191",
+    "Html": "Is there a way to have a print icon on the RTE toolbar and print the contents of the RTE document as formatted text?\r\n",
+    "PostedDate": "2008-09-08T12:49:10.157-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "134281",
+    "ThreadId": "35191",
+    "Html": "That's a great idea. I'll take a stab at implementing this.<br>\r\n",
+    "PostedDate": "2008-11-21T08:27:48.273-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

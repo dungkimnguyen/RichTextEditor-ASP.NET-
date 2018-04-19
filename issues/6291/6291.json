@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "rameshnaidu\nFeb 21 at 2:32 AM\n \nif i add more then one RichTextEditor in the form 2 nd one is not working\ncan u please help me\n \ntcotton\nApr 7 at 11:29 AM\n\t\nI am having the same issue. If anyone has a solution please share it.\n \nmrfinger\nApr 8 at 2:29 PM\n \nThis issue is related to the javascript that the control generates is not unique to the specific instance of the control. Variable name and function name conflicts cause issues with multiple instances of the RTE on one page. To get around this you could either change the rte javascript objects and functions to account for multiple instances, or change the source so the javascript is generated dynamically in the C# code which enables unique names to be created. Both options require a good deal of work, I opted for option 2. There may be a better/easier way to do this... but I couldn't find one.\n \nSSirica\nApr 16 at 3:12 PM\n \nmrfinger, care to share with the group? I'm not a C# programmer, so where and what to change would be greatly appreciated.\n \nmrfinger\nApr 18 at 9:47 AM\n \nHello, The changes involved are quite vast. Unfortunately I don't currently have the time in my schedule to go through all of the modifications needed and post them here. My work load should lighten as summer approaches and then perhaps I can craft together something to share and maybe even worth suggesting to be added to future release. Sorry for not being able to share more at this current moment. A lot of the code is actually Javascript code which needs to be redone. All of the \"loose\" functions in the js files of the RTE need to be put in to objects... the C# code then needs to be modified to create unique instances of the objects for each rte. This methodology can be studied by looking at the code of other AJAX controls... the AJAX Toolkit is a good place to look.",
+    "LastUpdatedDate": "2017-12-14T14:33:51.68-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2008-06-03T20:34:53.433-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Adding more than one rich text editor inside the form",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 6,
+    "Id": 6291
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Any chance for any further information?  ",
+      "PostedDate": "2009-10-01T14:04:12.073-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-08-31T06:34:57.62-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:54.48-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-12-14T14:33:51.68-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

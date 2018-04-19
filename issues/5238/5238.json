@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The editor is runs well, but for some reason when running under a SSL  it's attempting to load some items that are 'nonsecure' (outside of the app) - if I load it and prevent the nonsecure items to be displayed I can't see any difference from allowing them. Getting this warning will be a pain to users though - any ideas?",
+    "LastUpdatedDate": "2013-02-14T12:46:54.967-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2008-01-24T18:15:52.18-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "SSL issues",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 5238
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Is this only an issue in IE?\r\n\r\nthink might be same issue had in freetextbox, in that IE complains if IFrame src attribute is blank or \"about:blank\". \r\nWork around is to have a blank.html file that is the start src attribute of the IFrame, then change to actual later.\r\n\r\nCan someone confirm if this the control is using an IFrame with a blank src attribute initially?\r\n\r\nJust tried on my IE browser and came up with error, but fine in firefox, so looks like the case.",
+      "PostedDate": "2008-07-22T08:58:57.177-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Looked at source and no src attribute on IFrame, copied output to html and tested and warning came up. Added blank.html and set src to blank.html and no warning.\r\n\r\nCan this be fixed now?",
+      "PostedDate": "2008-07-22T09:05:49.613-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "One word of warning, in freetextbox after this fix back button causes error (goes back to blank.html). This was why I'm looking to move to RTE, so if can fix this and have working back button, and get to ignore blank.html then I'll move.",
+      "PostedDate": "2008-07-22T09:08:44.427-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-01-14T22:01:50.697-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:54.967-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "Id": "58283",
+    "ThreadId": "17849",
+    "Html": "\r\nIs it possible to set this be a read-only control?<br />",
+    "PostedDate": "2007-11-14T16:16:13.263-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "58415",
+    "ThreadId": "17849",
+    "Html": "\r\nCould you explain more about the scenario ? <br />",
+    "PostedDate": "2007-11-15T10:17:23.333-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90239",
+    "ThreadId": "17849",
+    "Html": "\r\nI am looking for the same feature in RTE. <br />I want the component to work in two different modes: ReadOnly and ReadWrite<br />ReadWrite is the default (current) functionality.<br />In ReadOnly mode, I wish to see the text, user should not be able to modify it. I have looked at the code and managed to add a property to the control to hide the toolbar but I am still strugling with making the text box ReadOnly.<br /><br />Any ideas?<br /><br /><div class=\"quote\" style=\"border: dotted .1em #aaa; border-left: none; border-right: none; font-style: italic; margin: 1em 0em 2.5em 3em;padding: .2em;\"><br />skannan wrote:<br />Could you explain more about the scenario ? <br /><br /></div>",
+    "PostedDate": "2008-05-02T08:43:43.873-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90394",
+    "ThreadId": "17849",
+    "Html": "\r\nCouldn't you just use a &lt;div&gt; or a &lt;span&gt; or just about any other element as the text in the RTE control is simply HTML?  You could just create a &lt;div&gt; to put the text in and then swap the &lt;div&gt; out with the control when you want it editable.<br />",
+    "PostedDate": "2008-05-03T15:58:32.873-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90532",
+    "ThreadId": "17849",
+    "Html": "\r\nWell, I noticed in the sample web site a DIV is being used. That is a work around but it is not nice and clean. The ideal solution is to have a property to switch the text editor mode to ReadOnly or ReadWrite.<br />Many components have a similar property. (e.g. TextBox)<br />I have added two properties to the component to hide or show thw tabs and control bar but I have not been able to make the editor read only. I was hopeing that you can help me on that.<br /><br />Cheers<br /><div class=\"quote\" style=\"border: dotted .1em #aaa; border-left: none; border-right: none; font-style: italic; margin: 1em 0em 2.5em 3em;padding: .2em;\"><br />jimbillig wrote:<br />Couldn't you just use a &lt;div&gt; or a &lt;span&gt; or just about any other element as the text in the RTE control is simply HTML?  You could just create a &lt;div&gt; to put the text in and then swap the &lt;div&gt; out with the control when you want it editable.<br /><br /></div>",
+    "PostedDate": "2008-05-05T06:52:59.327-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90539",
+    "ThreadId": "17849",
+    "Html": "\r\nIn the Rte.cs file of the RTE project you will see that there is a TextArea tag dynamically generated and inserted in to the client side for use.  You can rig up a property to enable/disable the TextArea Tag along with the toolbar.  <b>NOTE:</b> for some silly reason the TextArea tag has a \"disabled\" attribute rather than \"enabled\" so you will have to negate your booleans to make it respond like \"enabled\".  I made similar properties, so if you have further questions don't hesitate to ask.<br />",
+    "PostedDate": "2008-05-05T07:29:07.867-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90566",
+    "ThreadId": "17849",
+    "Html": "\r\nThanks for the help. May I get a copy of your Rte.cs file? <br /><br /><div class=\"quote\" style=\"border: dotted .1em #aaa; border-left: none; border-right: none; font-style: italic; margin: 1em 0em 2.5em 3em;padding: .2em;\"><br />mrfinger wrote:<br />In the Rte.cs file of the RTE project you will see that there is a TextArea tag dynamically generated and inserted in to the client side for use.  You can rig up a property to enable/disable the TextArea Tag along with the toolbar.  <b>NOTE:</b> for some silly reason the TextArea tag has a \"disabled\" attribute rather than \"enabled\" so you will have to negate your booleans to make it respond like \"enabled\".  I made similar properties, so if you have further questions don't hesitate to ask.<br /><br /><br /></div>",
+    "PostedDate": "2008-05-05T09:00:11.883-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90612",
+    "ThreadId": "17849",
+    "Html": "\r\nMy problem is that when I change the DomMode to true (client mode), I get some other errors. I have been spending too much time on fixing those errors. Now I've decided to use the Server mode, which is not using the TextArea tag. Have you tried that?<br /><div class=\"quote\" style=\"border: dotted .1em #aaa; border-left: none; border-right: none; font-style: italic; margin: 1em 0em 2.5em 3em;padding: .2em;\"><br />Feryal wrote:<br />Thanks for the help. May I get a copy of your Rte.cs file? <br /><br /><div class=\"quote\" style=\"border: dotted .1em #aaa; border-left: none; border-right: none; font-style: italic; margin: 1em 0em 2.5em 3em;padding: .2em;\"><br />mrfinger wrote:<br />In the Rte.cs file of the RTE project you will see that there is a TextArea tag dynamically generated and inserted in to the client side for use.  You can rig up a property to enable/disable the TextArea Tag along with the toolbar.  <b>NOTE:</b> for some silly reason the TextArea tag has a \"disabled\" attribute rather than \"enabled\" so you will have to negate your booleans to make it respond like \"enabled\".  I made similar properties, so if you have further questions don't hesitate to ask.<br /><br /><br /></div><br /></div>",
+    "PostedDate": "2008-05-05T11:47:37.827-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90624",
+    "ThreadId": "17849",
+    "Html": "\r\nI'd rather not because that is just an ugly work around. I like to have a ReadOnly property for the component and control it ptogramatically.<br /><div class=\"quote\" style=\"border: dotted .1em #aaa; border-left: none; border-right: none; font-style: italic; margin: 1em 0em 2.5em 3em;padding: .2em;\"><br />jimbillig wrote:<br />Couldn't you just use a &lt;div&gt; or a &lt;span&gt; or just about any other element as the text in the RTE control is simply HTML?  You could just create a &lt;div&gt; to put the text in and then swap the &lt;div&gt; out with the control when you want it editable.<br /><br /></div>",
+    "PostedDate": "2008-05-05T13:00:12.267-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90750",
+    "ThreadId": "17849",
+    "Html": "\r\nOk, let's see... <br />If  you look at TextBox component (System.Web.UI.WebControls.TextBox), you'll see a property called 'ReadOnly'.<br />The default value for this property is false, which makes it editable. If you change the property value to true, user can not change the text in the text box.<br />That's exactly what I am looking for in the RichTextEditor.<br />I hope this is clear enough.<br /><div class=\"quote\" style=\"border: dotted .1em #aaa; border-left: none; border-right: none; font-style: italic; margin: 1em 0em 2.5em 3em;padding: .2em;\"><br />Feryal wrote:<br />I am looking for the same feature in RTE. <br />I want the component to work in two different modes: ReadOnly and ReadWrite<br />ReadWrite is the default (current) functionality.<br />In ReadOnly mode, I wish to see the text, user should not be able to modify it. I have looked at the code and managed to add a property to the control to hide the toolbar but I am still strugling with making the text box ReadOnly.<br /><br />Any ideas?<br /><br /><div class=\"quote\" style=\"border: dotted .1em #aaa; border-left: none; border-right: none; font-style: italic; margin: 1em 0em 2.5em 3em;padding: .2em;\"><br />skannan wrote:<br />Could you explain more about the scenario ? <br /><br /></div><br /></div>",
+    "PostedDate": "2008-05-06T06:54:04.167-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90826",
+    "ThreadId": "17849",
+    "Html": "\r\nHello,<br />  For those still looking for a solution, you might want to try this:<br />    Rte.cs<br />     In the OnPreRender code.  Underneath these lines:<br />            Global.Instance.Resource.RegisterClientImmediateScript(this, \"emoticonsadd\", scriptBuilder.ToString());<br />            Global.Instance.Resource.RegisterClientImmediateScript(this, \"editorLinks\", \"var editCssUrl = \\'\" + Global.Instance.Resource.GetUrl(this.Page, \"AjaxControls.edit.css\") + \"\\';\");<br />            Global.Instance.Resource.RegisterClientImmediateScript(this, \"editorIdinit\", \"var editorId = '\" + this.TextEditorClientID + \"' ;\");<br />            Global.Instance.Resource.RegisterClientImmediateScript(this, \"RichEditIdinit\", \"var RichEditId = '\" + this.iFrame.ClientID + \"' ;\");<br />            Global.Instance.Resource.RegisterClientImmediateScript(this, \"RteIdinit\", \"var RteId = '\" + this.ClientID + \"' ;\");<br />            Global.Instance.Resource.RegisterClientImmediateScript(this, \"RteToolbarId\", \"var RteToolbarId = '\" + toolbar.ClientID + \"' ;\");<br /><br />   Add the following code:<br /><br />            if (!this.Enabled)<br />            {<br />                Global.Instance.Resource.RegisterClientImmediateScript(this, \"RteEnabled\", \"var RteEnabled = false;\");<br />            }<br />            else<br />            {<br />                Global.Instance.Resource.RegisterClientImmediateScript(this, \"RteEnabled\", \"var RteEnabled = true;\");<br />            }<br /><br />  Then in the RteStartup.js file.  in the \"browser = {\" declaration, underneath this line:<br /><br />          richeditor.EditMode = true;<br /><br />  Add the following code:<br /><br />if (!RteEnabled)<br />{<br />    richeditor.GetDocument().body.disabled = true;<br />}<br /><br />   This ties the controls built in Enabled property to the editors body.disabled attribute.  Haven't tested it much.  I have heavily modified the source code, but making this change in the original source should work.<br />",
+    "PostedDate": "2008-05-06T12:15:48.093-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "105688",
+    "ThreadId": "17849",
+    "Html": "This works for IE but not for FF.&nbsp; Anybody have any ideas why?<br>\r\n",
+    "PostedDate": "2008-07-18T11:57:26.56-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "107705",
+    "ThreadId": "17849",
+    "Html": "Yeah.&nbsp; I am pretty sure that setting the document body's disabled attribute is something you can only do in Internet Explorer browsers...&nbsp; Firefox &amp; Mozilla don't support this... disabling the body tag is probably not part of the html standards.&nbsp;&nbsp; To get this to work across browsers would probably&nbsp;require either encasing the rte in a div tag or something similar and using that elements disable attribute,&nbsp; or in the &quot;if (!RteEnabled) ...&quot;&nbsp; javascript code mentioned in my last post, changing that to set each&nbsp;element of the rte to disabled = true.&nbsp; Maybe there is another element other than the body tag to disable?&nbsp; I'm a bit rusty on this control, any of the contributors have ideas?<br>\r\n<br>\r\nMr Finger\r\n",
+    "PostedDate": "2008-07-29T06:27:38.953-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

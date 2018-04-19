@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "90423",
+    "ThreadId": "27080",
+    "Html": "\r\nin my web application i am inserting text in RichText box at particular cursor position by using document.selection and then using createRange(). it works fine in IE but in Mozilla document.selection is not working. and hence i am not able to insert text in textarea at particular cursor position in Mozilla.<br /><br /><br />",
+    "PostedDate": "2008-05-04T03:36:20.847-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90552",
+    "ThreadId": "27080",
+    "Html": "\r\nNot sure but the problem is probably because the two different browsers use different methods to modify the text... ... ... Probably will need to write something that checks to see if the various objects are available for usage, if document.selection &amp; document.selection.createRange are available then use them, if window.getSelection is available then use it.  <br /><br />  if (document.selection &amp;&amp; document.selection.createRange) {<br />    //do createRange code here<br />  }<br />  else if (window.getSelection) {<br />   //do getSelection / getRangeAt code here<br />  }<br />",
+    "PostedDate": "2008-05-05T08:09:41.053-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "90560",
+    "ThreadId": "27080",
+    "Html": "\r\nactually i am doing the same thing <br />code is as below <br /><br />alert(richeditor.GetWindow().getSelection().getRangeAt(0).startOffset);<br /><br /><br />this is returning me current cursor position.<br />but here the problem is,  current cursor position is representing cursor position in current selected line.<br />say if RichtextBox contains 3 lines <br />each line contains 10 characters and suppose my cursor is at 5th position in 2nd line <br />the above code returns current cursor position as 5 <br />but i want it as 15 as it is actually at 15th position.<br /><br /><br /><br /><div class=\"quote\" style=\"border: dotted .1em #aaa; border-left: none; border-right: none; font-style: italic; margin: 1em 0em 2.5em 3em;padding: .2em;\"><br />mrfinger wrote:<br />Not sure but the problem is probably because the two different browsers use different methods to modify the text... ... ... Probably will need to write something that checks to see if the various objects are available for usage, if document.selection &amp; document.selection.createRange are available then use them, if window.getSelection is available then use it.  <br /><br />  if (document.selection &amp;&amp; document.selection.createRange) {<br />    //do createRange code here<br />  }<br />  else if (window.getSelection) {<br />   //do getSelection / getRangeAt code here<br />  }<br /><br /></div>",
+    "PostedDate": "2008-05-05T08:31:24.487-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

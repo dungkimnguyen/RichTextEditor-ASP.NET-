@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "60783",
+    "ThreadId": "18587",
+    "Html": "\r\nI am trying to work with this control in a web application that has nested master pages.  This control works well when it is not in the content place holder.  <br /><br />I receive this error \"Object reference not set to an instance of an object.\" at there lines in ToolBar.cs  Does anyone know what I can do to fix this issue.<br /><br />cssLink.Href = Global.Instance.Resource.GetUrl(this.Page, \"AjaxControls.Toolbar.css\");<br />this.Page.Header.Controls.Add(cssLink);<br />",
+    "PostedDate": "2007-12-01T21:18:45.313-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "92289",
+    "ThreadId": "18587",
+    "Html": "I get the same problem with nested master pages, have you found a workaround?<br>\r\n",
+    "PostedDate": "2008-05-13T14:03:20.563-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "96588",
+    "ThreadId": "18587",
+    "Html": "you guys both built the RTE solution and copied the resulting .dll and .pdb files from the /bin directory on the sample website into your own /bin folder on your website right?<br>\r\n",
+    "PostedDate": "2008-06-03T14:40:19.307-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "96630",
+    "ThreadId": "18587",
+    "Html": "We're working on this issue... stay tuned!<br>\r\n",
+    "PostedDate": "2008-06-03T20:13:38-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "267102",
+    "ThreadId": "18587",
+    "Html": "<p>Any success on the fix?</p>\r\n<p>I am getting the same error....</p>\r\n<p>[NullReferenceException: Object reference not set to an instance of an object.]<br>AjaxControls.ToolBar.OnPreRender(EventArgs e) in C:\\Documents and Settings\\c16ry\\My Documents\\Visual Studio 2005\\Projects\\RTE\\RichTextEditor\\ToolBar.cs:190</p>\r\n<p>Also, a point to note is that ...although I am using it in VS2008 the error shows it as <strong>Visual Studio 2005</strong>-</p>\r\n<p>C:\\Documents and Settings\\c16ry\\My Documents\\Visual Studio 2005\\Projects\\RTE\\RichTextEditor\\ToolBar.cs:190</p>\r\n<p>Thanks....</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-12-14T08:50:44.42-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

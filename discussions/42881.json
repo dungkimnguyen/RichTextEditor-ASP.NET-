@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "142523",
+    "ThreadId": "42881",
+    "Html": "when i try to use rte on ie6 , i get an &quot;systax error&quot; and &quot;RichTextEditor is undefined&quot;, when i debug the code , i see syntax error on invoke &quot;Initrte&quot; functions, the other error found in rtestartup.js, in InitRte class when create an instance of RichtextEditor.<br>\r\nCode running on ie7 and ff.<br>\r\nAny suggestion,thanx advance \r\n",
+    "PostedDate": "2008-12-23T00:21:22.687-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

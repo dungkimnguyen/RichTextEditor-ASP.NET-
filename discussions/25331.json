@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "84914",
+    "ThreadId": "25331",
+    "Html": "\r\nI builded the solution with success.<br />When I open SampleWebSite in desing the control show me  \"Error Rendering Control\" An unhandled execption has ocurred. Index was out of range. Must be non-negative and less of the size of the collection. Parameter name: index. If I removed the javascript code I have not the error.  But when I want use it, I have a lot of problems:<br />Properties: Culture , TextEditorClientId, Theme and Text say \"Request is not available\".<br />Later than a can retrieve the value of the Text Property.<br />Thanks a lot.<br />",
+    "PostedDate": "2008-04-03T19:42:55.683-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "85096",
+    "ThreadId": "25331",
+    "Html": "\r\nI am using Visual Studio 2008 &amp; developing for web browsers IE6 &amp; IE7.  For me the Sample Web Site also reports errors in Design View.  I can run the Sample Site just fine in Debug mode, or publishing the site to IIS.   Removing the javascript code <u>will</u> cause issues,  the javascript in the demo helps keep the rte \"in synch\" during postback.  When using the RTE in your own page you can get around the need for javascript in the aspx by adding the following line to the page's load method:<br />Page.Form.Attributes.Add(\"onSubmit\", \"CopyText(); return true;\")<br />I have had difficulties retrieving the text of the rte in the server side code and had to resort to accessing it from the page request with code like this:<br />dim html as string = Me.Page.Request.Form(Me.UniqueID &amp; \"$editor\") 'I am vb code.<br />This rte is very nice if you can coax it in to working the way you want it to.  I have resorted to modifying the source to make it run better for my uses...<br />",
+    "PostedDate": "2008-04-04T13:24:44.48-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

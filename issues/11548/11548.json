@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Server Error in '/payloadznet' Application.\nObject reference not set to an instance of an object.\nDescription: An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.\n \nException Details: System.NullReferenceException: Object reference not set to an instance of an object.\n \nSource Error:\n \nAn unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.\n \nStack Trace:\n \n[NullReferenceException: Object reference not set to an instance of an object.]\n   AjaxControls.ToolBar.OnPreRender(EventArgs e) in C:\\Documents and Settings\\c16ry\\My Documents\\Visual Studio 2005\\Projects\\RTE\\RichTextEditor\\ToolBar.cs:190\n   System.Web.UI.Control.PreRenderRecursiveInternal() +86\n   System.Web.UI.Control.PreRenderRecursiveInternal() +170\n   System.Web.UI.Control.PreRenderRecursiveInternal() +170\n   System.Web.UI.Control.PreRenderRecursiveInternal() +170\n   System.Web.UI.Control.PreRenderRecursiveInternal() +170\n   System.Web.UI.Control.PreRenderRecursiveInternal() +170\n   System.Web.UI.Control.PreRenderRecursiveInternal() +170\n   System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint) +2041\n \nPlease guide me why i am getting this error?",
+    "LastUpdatedDate": "2013-02-14T12:46:51.173-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2010-01-18T22:11:43.6-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Exception Details: System.NullReferenceException: Object reference not set to an instance of an object.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11548
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "You need to set head tag to runat=\"server\".  Control is attempting to add javascript and css into the head tag.",
+      "PostedDate": "2011-09-12T16:33:43.467-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:51.173-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

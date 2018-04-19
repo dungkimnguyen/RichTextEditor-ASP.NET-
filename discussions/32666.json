@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "108292",
+    "ThreadId": "32666",
+    "Html": "Hi,<br>\r\n<br>\r\nwhen I set the text property of the editor with my HTML, it doesn't seem to be rendering it.<br>\r\nIs there a way to set the editor to go on HtmlView directly?<br>\r\nOr is there a HTML property?<br>\r\n<br>\r\nThanks<br>\r\n",
+    "PostedDate": "2008-07-31T10:08:02.887-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "108307",
+    "ThreadId": "32666",
+    "Html": "Setting the Text property should do it. Would you be willing to post some code and maybe we can pinpoint why it's not working. Thanks!<br>\r\n",
+    "PostedDate": "2008-07-31T11:38:41.693-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

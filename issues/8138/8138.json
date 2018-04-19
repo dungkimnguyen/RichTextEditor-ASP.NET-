@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I've noticed that on the pages that I use this control on, there is often extra whitespace at the bottom of the page, and is even more noticable when I've set the heights (html, body, form, etc) to 100%. As it turns out, the CSS style used to hide the pop-up elements is: \"visibility: hidden;\". This does not remove the space the element takes up, only makes it not display on the page. If you change all instances of \"visibility\" to the respective \"display\" properties, the extra whitespace is removed. For instance, change \"visibility: hidden;\" to \"display: none;\". All the elements are programatically made visible (ie control.style.visibility = \"visible\";), so they will also need to be change to the appropriate display settings. In most cases control.style.display = \"\"; will suffice, however, for DropDownToolbarButton it will need to be control.style.display = \"block\";",
+    "LastUpdatedDate": "2013-02-14T12:46:52.747-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2008-11-18T13:52:36.82-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Extra Whitespace",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8138
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

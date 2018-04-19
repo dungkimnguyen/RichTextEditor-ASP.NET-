@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "250395",
+    "ThreadId": "73280",
+    "Html": "<p>My requirement is i need to load the contents of a word document which is formatted into paragraphs.</p>\r\n<p>Problem Nbr 1 :</p>\r\n<p>When i load the contents of word doc,the formatting is lost.</p>\r\n<p>Problem 2 :</p>\r\n<p>Wheni format it in text editor and save the contents to a word doc,again the formatiing is lost.</p>\r\n<p>&nbsp;</p>\r\n<p>Help in this regard would be greatly appreciated.</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks,</p>\r\n<p>Sasanka</p>",
+    "PostedDate": "2009-10-27T15:36:10.883-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "253014",
+    "ThreadId": "73280",
+    "Html": "<p>Can some one please help me in this regard?</p>\r\n<p>&nbsp;</p>\r\n<p>i am using the fllowing code for this...</p>\r\n<p>&nbsp;</p>\r\n<p><span style=\"color:#0000ff;font-size:x-small\"><span style=\"color:#0000ff;font-size:x-small\">Dim</span></span><span style=\"font-size:x-small\"> aDoc </span><span style=\"color:#0000ff;font-size:x-small\"><span style=\"color:#0000ff;font-size:x-small\">As</span></span><span style=\"font-size:x-small\"> Word.Document = WordApp.Documents.Open(outfile, missing, [readOnly], missing, missing, missing, missing, missing, missing, missing, missing, isVisible) </span></p>\r\n<p>aDoc.ActiveWindow.Selection.WholeStory()</p>\r\n<p>aDoc.ActiveWindow.Selection.CopyFormat()</p>\r\n<p>Rte1.Text = aDoc.ActiveWindow.Selection.Text()</p>\r\n<p>aDoc.Close()</p>\r\n<p>WordApp.Application.Quit()</p>",
+    "PostedDate": "2009-11-03T14:40:46.433-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

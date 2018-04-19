@@ -1,0 +1,82 @@
+[
+  {
+    "Id": "85776",
+    "ThreadId": "25609",
+    "Html": "\r\nhi i have added Rich text editor.and i need to resize whole Editor(make small).how can i do that ?? <br /><br />tnx<br />chaminda<br />",
+    "PostedDate": "2008-04-09T02:55:59.963-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "85893",
+    "ThreadId": "25609",
+    "Html": "\r\nIf you look in the Rte.cs file you will see code which defines the Textarea of the Rich Text Editor:<br />            if (IsSet(\"Theme\") &amp;&amp; String.Compare(this.Theme, \"Classic\") == 0)<br />                iFrame.Style.Add(HtmlTextWriterStyle.Width, \"723px\");<br />            else<br />                iFrame.Style.Add(HtmlTextWriterStyle.Width, \"740px\");<br /><br />            iFrame.Style.Add(HtmlTextWriterStyle.Height, \"500px\");<br />            iFrame.Attributes.Add(\"frameborder\", \"0\");<br /><br />and also,<br /><br />            writer.AddStyleAttribute(HtmlTextWriterStyle.Width, \"723px\");<br /><br />It has been a while since I modified this but I believe you can change these settings in coordination with setting the Height &amp; Width attributes in the actual tag.  If you want to change the width of the Rich Text Editor, you will have to modify the Buttons and toolbar in the editor accordingly.<br />",
+    "PostedDate": "2008-04-09T11:50:52.417-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "87199",
+    "ThreadId": "25609",
+    "Html": "\r\nMaking a change to the height or width property of the control has no effect on the size.<br />",
+    "PostedDate": "2008-04-16T12:14:22.577-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "87218",
+    "ThreadId": "25609",
+    "Html": "\r\nThe Height and Width properties will not effect the size alone.  The source code needs to be modified as well, see above.  You could also modify the source code to set all height settings based on the Height and Width properties.<br />",
+    "PostedDate": "2008-04-16T13:31:04.56-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111275",
+    "ThreadId": "25609",
+    "Html": "Is there any update coming out soon to fix this so that the size is determined by the property or does someone have some code to fix this....<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;\r\n",
+    "PostedDate": "2008-08-14T21:08:02.377-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111321",
+    "ThreadId": "25609",
+    "Html": "This should have been fixed with Change Set 11713. The release is out of date so try downloading and building the latest source. Let us know if that fixes your problem or not.<br>\r\n",
+    "PostedDate": "2008-08-15T04:31:22.527-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111464",
+    "ThreadId": "25609",
+    "Html": "I have downloaded this and built it. Yes it does fix the resizing for atleast the Blue theme but the Classic theme it still is showing the object being larger then the area.<br>\r\nIs there any help on fixing this because that is the theme that blends oh so well with my site already.&nbsp;&nbsp;&nbsp;&nbsp;\r\n",
+    "PostedDate": "2008-08-15T15:23:38.81-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "111751",
+    "ThreadId": "25609",
+    "Html": "I'm not having the same problem with the Classic theme. Could you maybe post some minimal code that reproduces the issue? Then I'll take a look at why it's happening. Thanks!<br>\r\n",
+    "PostedDate": "2008-08-18T05:29:09.72-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "141082",
+    "ThreadId": "25609",
+    "Html": "Hello!<br>\r\n<br>\r\nFirst of all, congratulations for the projet, it's amazing. About the resize, I solved the problem commenting the following code on the class RTE.cs:<br>\r\n<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //EnsureChildControls(); // DEV NOTE: I think this call\r\nis requiring me to set Height and Width before Theme. Does it need to\r\nbe here?<br>\r\n<br>\r\nIt's inside the theme property, and it didn't changed the values because it sets the height and widht value before:<br>\r\n---------------------------<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\npublic string Theme<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; get<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //EnsureChildControls(); // DEV NOTE: I think this call is requiring me to set Height and Width before Theme. Does it need to be here?<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; String s = (String)ViewState[&quot;Theme&quot;];<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return ((s == null) ? String.Empty : s);<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>\r\n<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; set<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //EnsureChildControls(); // DEV NOTE: I think this call is requiring me to set Height and Width before Theme. Does it need to be here?<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ViewState[&quot;Theme&quot;] = value;<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>\r\n--------------------------<br>\r\n<br>\r\nNow using something like that will work:<br>\r\n<br>\r\n&lt;cc1:RichTextEditor ID=&quot;Rte1&quot; Theme=&quot;Blue&quot; Height=&quot;150&quot; Width=&quot;250&quot;&nbsp; runat=&quot;server&quot; /&gt;&nbsp; <br>\r\n<br>\r\n<br>\r\nBest Regards,<br>\r\nLeandro Pilan<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n\r\n",
+    "PostedDate": "2008-12-16T12:53:46.23-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "660520",
+    "ThreadId": "25609",
+    "Html": "<p>Where can you find the Rte.cs file?</p>",
+    "PostedDate": "2011-08-19T04:24:09.63-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "104549",
+    "ThreadId": "31460",
+    "Html": "Would anyone be opposed to adding features between releases, in an ad-hoc manner, that might cause breaking changes down the road? In other words, would you rather wait for features to ensure that the existing interface does not change? Or would you rather get the features now with a good chance that the interface will have to change as more features are added? Is there some balance that we could strike?<br>\r\n<br>\r\nI've been slow to add certain features because I'm not sure what the best api would be.<br>\r\n<br>\r\nThanks!<br>\r\n",
+    "PostedDate": "2008-07-14T08:03:24.52-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "104727",
+    "ThreadId": "31460",
+    "Html": "<br>\r\n<div style=\"border-right:medium none;padding-right:0.2em;border-top:#aaa 0.1em dotted;padding-left:0.2em;padding-bottom:0.2em;margin:1em 0em 2.5em 3em;border-left:medium none;padding-top:0.2em;border-bottom:#aaa 0.1em dotted;font-style:italic\"><br>\r\nyorkrj wrote:<br>\r\nIn other words, would you rather wait for features to ensure that the existing interface does not change? Or would you rather get the features now with a good chance that the interface will have to change as more features are added? Is there some balance that we could strike?<br>\r\n<br>\r\n</div>\r\nThe UserControl I created around the HTML Editor that is then used by our programmers&nbsp;requires only a minimal set of properties to function:<br>\r\n- .Text (in-out of the HTML)<br>\r\n- .ToolbarSet (we alllow the programmer to select from a 'default' or an 'Extended' toolbar menu set)<br>\r\n- .Width/.Height (in case its not 100% of the container control)<br>\r\n-&nbsp;forcing the UI language&nbsp;(internal to the UC, not set by the programmer)<br>\r\n<br>\r\nSo as long as the above are available any changes to the interface should not matter.\r\n",
+    "PostedDate": "2008-07-15T01:07:51.547-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

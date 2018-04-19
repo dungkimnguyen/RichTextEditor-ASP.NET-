@@ -1,0 +1,100 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "XHTML support is a key feature that is needed for our project. The content entered into the RTE needs to be XML compliant for our system to use it. We transform the content against XSLT files. It would be nice to have sort of validation that enforces the RTE to only put out XHTML content.",
+    "LastUpdatedDate": "2013-02-14T12:46:55.57-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2007-12-03T07:03:35.853-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "XHTML Support",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 11,
+    "Id": 4668
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "One would think this rather important for Visual Studio users...",
+      "PostedDate": "2007-12-10T14:47:08.123-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-01-10T23:25:41.893-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "http://www.codeplex.com/rte/Thread/View.aspx?ThreadId=20267",
+      "PostedDate": "2008-01-10T23:26:24.987-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-02-06T14:33:09.19-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-02-11T09:13:22.46-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-05-14T09:07:06.61-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-07-18T04:03:22.95-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-07-18T10:52:53.833-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-07-18T13:14:50.6-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-01-14T22:09:13.773-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-09-09T22:55:13.933-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:55.57-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "111979",
+    "ThreadId": "33785",
+    "Html": "Hi..<br>\r\nIve gone through the demo of the rich text editor..but I didnt find any option add\\uplaod images to the rich text box..<br>\r\nIs this feature supported in rich text box editor of codeplex....<br>\r\n<br>\r\nI need to have a rich text box,,which allows the user to enter images and hyperlinks...in to the content....<br>\r\n<br>\r\nThanks in advacne..<br>\r\nVijaya<br>\r\n",
+    "PostedDate": "2008-08-19T00:42:00.827-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "112019",
+    "ThreadId": "33785",
+    "Html": "Image upload is not supported. But you can suggest it in the Issue Tracker and vote for it.<br>\r\n<br>\r\nThanks!<br>\r\n",
+    "PostedDate": "2008-08-19T05:16:39.437-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

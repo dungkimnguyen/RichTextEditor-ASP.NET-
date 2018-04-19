@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "484940",
+    "ThreadId": "224872",
+    "Html": "<p>I get this error &quot;htmlfile:&nbsp;Unexpected call to method or property access.&quot; when I run the page that hosts the control. It breaks here&nbsp;</p>\r\n<p>p.appendChild(ColorDialog.uiElement);</p>\r\n<p>Any idea what's going on? Anyone else encountered this?</p>",
+    "PostedDate": "2010-08-25T21:23:00.82-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

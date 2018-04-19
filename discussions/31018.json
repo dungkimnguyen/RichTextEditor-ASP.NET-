@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "103131",
+    "ThreadId": "31018",
+    "Html": "Hello,<br>\r\n<br>\r\nWhen I am using safari with RTE the line breaks show up as <span style=\"border-collapse:separate;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;font-family:Arial;font-size:13px;color:rgb(0, 0, 0)\">&lt;div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;white-space: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt; <br>\r\n<br>\r\nIs there anyway to control the way RTE does line breaks? <br>\r\n<br>\r\nThanks in advance for your help!<br>\r\n<br>\r\n-JD<br>\r\n</span>\r\n",
+    "PostedDate": "2008-07-07T11:35:54.877-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

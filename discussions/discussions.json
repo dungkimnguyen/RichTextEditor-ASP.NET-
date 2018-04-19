@@ -1,0 +1,607 @@
+[
+  {
+    "Id": "17727",
+    "Title": "HTML Tags in UPPERCASE",
+    "LatestDate": "2007-11-12T19:24:03.787-08:00"
+  },
+  {
+    "Id": "17849",
+    "Title": "Read-Only Attribute",
+    "LatestDate": "2008-07-29T06:27:38.953-07:00"
+  },
+  {
+    "Id": "17851",
+    "Title": ".Text sometimes returns HTML escaped",
+    "LatestDate": "2007-12-18T07:39:11.167-08:00"
+  },
+  {
+    "Id": "17987",
+    "Title": "Acces is denied ",
+    "LatestDate": "2007-11-20T05:59:56.907-08:00"
+  },
+  {
+    "Id": "17993",
+    "Title": "Import CSS Styles",
+    "LatestDate": "2009-01-20T01:13:47.047-08:00"
+  },
+  {
+    "Id": "18107",
+    "Title": "no visual studio",
+    "LatestDate": "2007-11-20T18:28:22.367-08:00"
+  },
+  {
+    "Id": "18454",
+    "Title": ".Text returns empty string",
+    "LatestDate": "2007-12-18T07:30:58.34-08:00"
+  },
+  {
+    "Id": "18587",
+    "Title": "Rich Text Control within nested Master Pages",
+    "LatestDate": "2009-12-14T08:50:44.42-08:00"
+  },
+  {
+    "Id": "18848",
+    "Title": "setting up the dll",
+    "LatestDate": "2009-07-14T23:20:36.583-07:00"
+  },
+  {
+    "Id": "19369",
+    "Title": "I need to turn-off the emoticons",
+    "LatestDate": "2008-02-07T04:41:21.333-08:00"
+  },
+  {
+    "Id": "19435",
+    "Title": "Adding RTE to my existing Website",
+    "LatestDate": "2008-01-04T03:34:06.81-08:00"
+  },
+  {
+    "Id": "20049",
+    "Title": "Manage Image in RTE",
+    "LatestDate": "2008-01-07T04:02:35.587-08:00"
+  },
+  {
+    "Id": "20074",
+    "Title": "Saving Rich Text",
+    "LatestDate": "2008-01-07T11:34:13.983-08:00"
+  },
+  {
+    "Id": "20140",
+    "Title": "Problem with .TEXT property",
+    "LatestDate": "2008-07-21T07:43:01.177-07:00"
+  },
+  {
+    "Id": "20267",
+    "Title": "XHTML with the new XhtmlTextWriter Class",
+    "LatestDate": "2008-01-10T23:13:19.8-08:00"
+  },
+  {
+    "Id": "20947",
+    "Title": "Adding break page to the rich text editor",
+    "LatestDate": "2008-01-24T01:48:55.113-08:00"
+  },
+  {
+    "Id": "21311",
+    "Title": "Text property problem",
+    "LatestDate": "2009-01-14T21:22:42.07-08:00"
+  },
+  {
+    "Id": "21539",
+    "Title": "Code Change",
+    "LatestDate": "2008-02-05T03:06:38.08-08:00"
+  },
+  {
+    "Id": "21655",
+    "Title": "error when dragging RTE on my page",
+    "LatestDate": "2008-04-07T08:26:15.64-07:00"
+  },
+  {
+    "Id": "21967",
+    "Title": "Error if i show the page inside a frame",
+    "LatestDate": "2010-01-12T23:21:40.977-08:00"
+  },
+  {
+    "Id": "21971",
+    "Title": "RTE in asp:UpdatePanel",
+    "LatestDate": "2008-02-15T14:46:06.69-08:00"
+  },
+  {
+    "Id": "22091",
+    "Title": "There is no current default release for this Project",
+    "LatestDate": "2008-06-03T20:16:57.36-07:00"
+  },
+  {
+    "Id": "22248",
+    "Title": "Code to Allow Page ValidateRequest to be left on",
+    "LatestDate": "2008-02-15T08:22:29.35-08:00"
+  },
+  {
+    "Id": "22573",
+    "Title": "Adding more than one rich text editor inside the form",
+    "LatestDate": "2008-06-03T20:35:59.963-07:00"
+  },
+  {
+    "Id": "23100",
+    "Title": "can i use this utility",
+    "LatestDate": "2008-02-28T22:44:08.677-08:00"
+  },
+  {
+    "Id": "23811",
+    "Title": "Button Orders",
+    "LatestDate": "2008-03-13T12:42:36.987-07:00"
+  },
+  {
+    "Id": "25331",
+    "Title": "Building and Using Problems",
+    "LatestDate": "2008-04-04T13:24:44.48-07:00"
+  },
+  {
+    "Id": "25609",
+    "Title": "Resize Editor",
+    "LatestDate": "2011-08-19T04:24:09.63-07:00"
+  },
+  {
+    "Id": "25775",
+    "Title": "Code Behide on asp.net (my problem)",
+    "LatestDate": "2008-04-14T04:03:55.04-07:00"
+  },
+  {
+    "Id": "26325",
+    "Title": "Focus being stolen",
+    "LatestDate": "2008-08-14T18:41:47.807-07:00"
+  },
+  {
+    "Id": "26327",
+    "Title": "Hide TextView/HTMLView tabs",
+    "LatestDate": "2008-08-15T16:05:21.967-07:00"
+  },
+  {
+    "Id": "26956",
+    "Title": "Cut, Copy, Paste Right Border Missing in Classic Theme",
+    "LatestDate": "2008-05-01T13:42:46.027-07:00"
+  },
+  {
+    "Id": "27058",
+    "Title": "problem with firefox",
+    "LatestDate": "2008-05-05T07:17:27.5-07:00"
+  },
+  {
+    "Id": "27077",
+    "Title": "having problem in div tag in mozilla",
+    "LatestDate": "2008-05-04T01:05:30.53-07:00"
+  },
+  {
+    "Id": "27080",
+    "Title": "want to insert text at cursor position in rechtextbox",
+    "LatestDate": "2008-05-05T08:31:24.487-07:00"
+  },
+  {
+    "Id": "27163",
+    "Title": "Unable to set DomMode to true",
+    "LatestDate": "2008-05-05T14:28:48.403-07:00"
+  },
+  {
+    "Id": "27546",
+    "Title": "First time install and setup",
+    "LatestDate": "2008-05-12T05:41:30.217-07:00"
+  },
+  {
+    "Id": "28773",
+    "Title": "Can't access edited text",
+    "LatestDate": "2008-06-04T01:23:24.43-07:00"
+  },
+  {
+    "Id": "29779",
+    "Title": "Bugs and Features",
+    "LatestDate": "2008-07-01T11:56:37.033-07:00"
+  },
+  {
+    "Id": "29792",
+    "Title": "how to control the button size ?",
+    "LatestDate": "2008-08-14T09:21:23.86-07:00"
+  },
+  {
+    "Id": "29801",
+    "Title": "How to Organize settings?",
+    "LatestDate": "2008-06-19T08:04:46.463-07:00"
+  },
+  {
+    "Id": "29971",
+    "Title": "Design mode not working when using window.showModalDialog",
+    "LatestDate": "2008-06-19T17:54:23.6-07:00"
+  },
+  {
+    "Id": "30511",
+    "Title": "Paste Html into RTE at startup?",
+    "LatestDate": "2008-06-30T14:14:48.047-07:00"
+  },
+  {
+    "Id": "30522",
+    "Title": "RTE and Web Client Software Factory",
+    "LatestDate": "2008-07-02T04:39:15.887-07:00"
+  },
+  {
+    "Id": "31018",
+    "Title": "Safari line breaks",
+    "LatestDate": "2008-07-07T11:35:54.877-07:00"
+  },
+  {
+    "Id": "31460",
+    "Title": "Breaking Changes",
+    "LatestDate": "2008-07-15T01:07:51.547-07:00"
+  },
+  {
+    "Id": "31586",
+    "Title": "Programatically insert text",
+    "LatestDate": "2010-01-21T13:54:34.71-08:00"
+  },
+  {
+    "Id": "32447",
+    "Title": "problem with rte",
+    "LatestDate": "2008-07-29T05:21:43.303-07:00"
+  },
+  {
+    "Id": "32568",
+    "Title": "Removing icons from toolbar",
+    "LatestDate": "2008-08-11T14:36:26.837-07:00"
+  },
+  {
+    "Id": "32666",
+    "Title": "RTE Editor text view",
+    "LatestDate": "2008-07-31T11:38:41.693-07:00"
+  },
+  {
+    "Id": "33125",
+    "Title": "hyperlink target property ",
+    "LatestDate": "2008-08-14T17:13:25.17-07:00"
+  },
+  {
+    "Id": "33330",
+    "Title": "The RTE and ASP Validator Controls",
+    "LatestDate": "2008-08-25T05:23:41.867-07:00"
+  },
+  {
+    "Id": "33442",
+    "Title": "Command Aborted",
+    "LatestDate": "2008-09-09T09:27:24.233-07:00"
+  },
+  {
+    "Id": "33572",
+    "Title": "Problem with RTE in DNN",
+    "LatestDate": "2008-08-14T17:00:07.29-07:00"
+  },
+  {
+    "Id": "33617",
+    "Title": "RTE operation aborted error in internet explorer 7",
+    "LatestDate": "2008-08-15T13:16:57.99-07:00"
+  },
+  {
+    "Id": "33785",
+    "Title": "Reg Image Uplaoding in Rich text editor",
+    "LatestDate": "2008-08-19T05:16:39.437-07:00"
+  },
+  {
+    "Id": "35191",
+    "Title": "Print the RTE Document",
+    "LatestDate": "2008-11-21T08:27:48.273-08:00"
+  },
+  {
+    "Id": "35567",
+    "Title": "Downloading RTE ",
+    "LatestDate": "2008-09-12T13:11:22.217-07:00"
+  },
+  {
+    "Id": "35901",
+    "Title": "ASP.NET 1.1 ?",
+    "LatestDate": "2008-09-22T05:56:25.547-07:00"
+  },
+  {
+    "Id": "36132",
+    "Title": "The control disabled when \"unhidden\"",
+    "LatestDate": "2008-09-22T06:02:49.61-07:00"
+  },
+  {
+    "Id": "36445",
+    "Title": "RTE Error Rendering Control",
+    "LatestDate": "2008-09-25T00:58:38.93-07:00"
+  },
+  {
+    "Id": "36617",
+    "Title": "FormView Throws JScript Runtime Error",
+    "LatestDate": "2008-09-28T14:25:44.607-07:00"
+  },
+  {
+    "Id": "37277",
+    "Title": "RTF File Format",
+    "LatestDate": "2008-10-08T01:45:38.983-07:00"
+  },
+  {
+    "Id": "39225",
+    "Title": "Support for tables?",
+    "LatestDate": "2008-11-25T02:22:54.797-08:00"
+  },
+  {
+    "Id": "39492",
+    "Title": "Support for tracking",
+    "LatestDate": "2008-11-08T08:50:14.583-08:00"
+  },
+  {
+    "Id": "42881",
+    "Title": "Error with ie6",
+    "LatestDate": "2008-12-23T00:21:22.687-08:00"
+  },
+  {
+    "Id": "43511",
+    "Title": "Index out of range",
+    "LatestDate": "2009-02-26T05:06:16.94-08:00"
+  },
+  {
+    "Id": "44381",
+    "Title": "full rte tutorial",
+    "LatestDate": "2009-02-26T05:05:06.077-08:00"
+  },
+  {
+    "Id": "44702",
+    "Title": "How do I get the plain text",
+    "LatestDate": "2009-02-26T05:00:43.33-08:00"
+  },
+  {
+    "Id": "44725",
+    "Title": "Moving control programmatically break script",
+    "LatestDate": "2009-02-26T07:42:44.163-08:00"
+  },
+  {
+    "Id": "45198",
+    "Title": "Loading editor with external data",
+    "LatestDate": "2009-01-25T12:32:15.863-08:00"
+  },
+  {
+    "Id": "45440",
+    "Title": "richeditor.toString() not working in FireFox",
+    "LatestDate": "2009-01-27T18:34:20.53-08:00"
+  },
+  {
+    "Id": "46416",
+    "Title": "How to build new rte dll",
+    "LatestDate": "2009-02-26T04:55:58.507-08:00"
+  },
+  {
+    "Id": "47341",
+    "Title": "Trimming out white spaces ",
+    "LatestDate": "2009-02-26T04:52:37.453-08:00"
+  },
+  {
+    "Id": "48550",
+    "Title": "Has anybody used this control in UserControl (.ascx)",
+    "LatestDate": "2009-02-26T04:50:52.877-08:00"
+  },
+  {
+    "Id": "48856",
+    "Title": "how i can read typed string from rte control to save it into database",
+    "LatestDate": "2009-02-28T21:46:27.37-08:00"
+  },
+  {
+    "Id": "49131",
+    "Title": "Not so good",
+    "LatestDate": "2009-03-03T20:33:04.613-08:00"
+  },
+  {
+    "Id": "51355",
+    "Title": "RichTextEditor for Silverlight ??? ",
+    "LatestDate": "2009-03-26T01:38:01.02-07:00"
+  },
+  {
+    "Id": "52454",
+    "Title": "Does this control offer Read-only/display mode?",
+    "LatestDate": "2010-07-07T00:34:32.167-07:00"
+  },
+  {
+    "Id": "56318",
+    "Title": "DIV tag instead of P tag",
+    "LatestDate": "2009-05-14T07:47:22.783-07:00"
+  },
+  {
+    "Id": "58941",
+    "Title": "html view values",
+    "LatestDate": "2009-06-09T09:26:01.473-07:00"
+  },
+  {
+    "Id": "59469",
+    "Title": "RTE not displayed within iframes",
+    "LatestDate": "2009-06-14T10:18:18.033-07:00"
+  },
+  {
+    "Id": "61569",
+    "Title": "How to enable chinese language",
+    "LatestDate": "2009-07-06T04:12:51.363-07:00"
+  },
+  {
+    "Id": "61950",
+    "Title": "RTE doesn't work in modal dialog",
+    "LatestDate": "2009-07-09T00:47:32.03-07:00"
+  },
+  {
+    "Id": "65370",
+    "Title": "error Rendering Control",
+    "LatestDate": "2009-08-12T09:52:28.59-07:00"
+  },
+  {
+    "Id": "67934",
+    "Title": "changes not captured on postback",
+    "LatestDate": "2010-10-11T07:03:45.837-07:00"
+  },
+  {
+    "Id": "69014",
+    "Title": "hyperlink problem",
+    "LatestDate": "2010-07-01T06:14:31.873-07:00"
+  },
+  {
+    "Id": "70861",
+    "Title": "Rich Text Editor shows up \"Page Not Found error\" when clicking IE Browser back button",
+    "LatestDate": "2009-10-02T14:12:41.06-07:00"
+  },
+  {
+    "Id": "70946",
+    "Title": "RTE Direction = RTL",
+    "LatestDate": "2009-10-04T05:27:34.323-07:00"
+  },
+  {
+    "Id": "71567",
+    "Title": "Saving RTE Content",
+    "LatestDate": "2011-01-12T17:13:56.407-08:00"
+  },
+  {
+    "Id": "73280",
+    "Title": "Formatting lost!!",
+    "LatestDate": "2009-11-03T14:40:46.433-08:00"
+  },
+  {
+    "Id": "74532",
+    "Title": "Selected Text",
+    "LatestDate": "2009-11-09T05:15:00.38-08:00"
+  },
+  {
+    "Id": "79046",
+    "Title": "Object reference not set to an instance of an object",
+    "LatestDate": "2009-12-24T14:48:02.253-08:00"
+  },
+  {
+    "Id": "80090",
+    "Title": "Cannot type text in main RTE !",
+    "LatestDate": "2010-01-07T09:36:47.19-08:00"
+  },
+  {
+    "Id": "81823",
+    "Title": "Turkish support",
+    "LatestDate": "2010-01-24T03:56:02.37-08:00"
+  },
+  {
+    "Id": "82619",
+    "Title": "Install and Usage",
+    "LatestDate": "2010-07-28T05:24:12.083-07:00"
+  },
+  {
+    "Id": "83678",
+    "Title": "How to add images",
+    "LatestDate": "2010-02-09T03:43:03.547-08:00"
+  },
+  {
+    "Id": "203596",
+    "Title": "Problem adding more then one Rich Text Editor to same webpage",
+    "LatestDate": "2010-05-14T13:49:57.693-07:00"
+  },
+  {
+    "Id": "204602",
+    "Title": "install and usage",
+    "LatestDate": "2010-05-14T13:53:05.75-07:00"
+  },
+  {
+    "Id": "210839",
+    "Title": "Size of RTE Control",
+    "LatestDate": "2010-10-14T13:17:33.22-07:00"
+  },
+  {
+    "Id": "212935",
+    "Title": "adding default text",
+    "LatestDate": "2010-07-01T05:03:25.24-07:00"
+  },
+  {
+    "Id": "215152",
+    "Title": "how can i set default font and font size ???",
+    "LatestDate": "2010-06-07T01:39:54.263-07:00"
+  },
+  {
+    "Id": "215291",
+    "Title": "database insert problem",
+    "LatestDate": "2010-06-09T12:30:23.303-07:00"
+  },
+  {
+    "Id": "215466",
+    "Title": "insert only works when in HTML View",
+    "LatestDate": "2010-06-14T10:15:58.2-07:00"
+  },
+  {
+    "Id": "217387",
+    "Title": "Bug report:  This control doesn't work in a FormView",
+    "LatestDate": "2010-07-28T08:51:56.187-07:00"
+  },
+  {
+    "Id": "221705",
+    "Title": "How to use RTE on https",
+    "LatestDate": "2010-07-28T08:05:39.57-07:00"
+  },
+  {
+    "Id": "222378",
+    "Title": "Can i use it in a commercial application?",
+    "LatestDate": "2010-08-03T16:26:04.207-07:00"
+  },
+  {
+    "Id": "223506",
+    "Title": "Adding to the Text",
+    "LatestDate": "2010-08-13T09:49:54.56-07:00"
+  },
+  {
+    "Id": "224872",
+    "Title": "Unexpected call to method or property access.",
+    "LatestDate": "2010-08-25T21:23:00.82-07:00"
+  },
+  {
+    "Id": "229887",
+    "Title": "RTE does not work in UpdatePanel",
+    "LatestDate": "2010-10-06T16:38:36.963-07:00"
+  },
+  {
+    "Id": "229943",
+    "Title": "Event on RTE",
+    "LatestDate": "2010-10-07T01:53:18.587-07:00"
+  },
+  {
+    "Id": "233934",
+    "Title": "behaviour difference between compiled and source code versions",
+    "LatestDate": "2010-11-08T13:25:41.467-08:00"
+  },
+  {
+    "Id": "238180",
+    "Title": "Once after adding RichTextEditor.dll in my project, giving error like \"The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>). \"",
+    "LatestDate": "2010-12-13T06:12:20.133-08:00"
+  },
+  {
+    "Id": "241298",
+    "Title": "This project needs a lot more work (serious security issue)",
+    "LatestDate": "2011-01-11T06:04:47.697-08:00"
+  },
+  {
+    "Id": "241533",
+    "Title": "Working demo with source code",
+    "LatestDate": "2011-01-12T17:17:14.93-08:00"
+  },
+  {
+    "Id": "256088",
+    "Title": "Can we change size of this rich text Editor control ?",
+    "LatestDate": "2013-09-02T02:56:48.757-07:00"
+  },
+  {
+    "Id": "268155",
+    "Title": "RTE ASP.NET Control IE8 Issue",
+    "LatestDate": "2011-08-07T23:13:25.38-07:00"
+  },
+  {
+    "Id": "269682",
+    "Title": "RTE.cs",
+    "LatestDate": "2011-08-19T03:58:17.187-07:00"
+  },
+  {
+    "Id": "273610",
+    "Title": "Getting A potentially dangerous Request.Form value was detected from the client ",
+    "LatestDate": "2011-09-23T07:08:14.663-07:00"
+  },
+  {
+    "Id": "348813",
+    "Title": "Using RTE Editor in Application licensing",
+    "LatestDate": "2012-03-15T16:09:13.88-07:00"
+  },
+  {
+    "Id": "434964",
+    "Title": "MVC?",
+    "LatestDate": "2013-02-28T17:59:23.24-08:00"
+  }
+]

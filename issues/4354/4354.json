@@ -1,0 +1,150 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Please provide an XHTML support ! no more <P align=left> but simply <p> and no more useless <font> tag. Please !\n \nTinyMCE has a client parser which is really efficient, so we can do it ;-)",
+    "LastUpdatedDate": "2013-02-14T12:46:56.937-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2007-11-11T01:34:12.217-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "XHTML Support",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 32,
+    "Id": 4354
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I also would like to see an increasing commitment to standards. Microsoft related web technologies have for years received bad press regarding their adherance to cross-compatibility and new controls like this one, which looks great and I'm sure many will use it, only add to that perception if they do not take note of these important features to developers.",
+      "PostedDate": "2007-11-14T03:29:46.443-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2007-11-14T20:03:54.91-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "No more FONT tag.  I mean come on this is almost 2008 and I think the FONT tag was last recommended for use in the year 1999.",
+      "PostedDate": "2007-11-14T20:04:56.847-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2007-11-15T09:39:12.71-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2007-11-19T00:08:28.41-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2007-11-19T00:11:41.493-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2007-11-19T00:11:44.82-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "\r\nI am pasting my comments from the main page here:\r\n\r\nThanks for all the feedback. Regarding the XHTML / tag issues, in this version I am using browser's in built functionality to do most rich text eidting. Thus the tags are created by respective browser ( IE or FF). You would see different tags created for the same functionality across the browsers for the same reason. In order to support XHTML I would have to not use browser features and do all tag handling myself. That might have implications on supporting the context sensitive menus that you have now. But certainly something to consider for next release. I would also like to take this time to encourage community contributions to this project. Please let me know if you are interested.",
+      "PostedDate": "2007-11-20T06:20:38.083-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2007-11-29T00:39:05.567-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-02-11T09:14:19.553-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-05-14T09:06:10.813-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-07-18T04:03:17.137-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-07-18T10:53:33.083-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-07-18T13:14:15.74-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-07-28T20:42:57.21-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-01-14T22:01:38.853-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-01-29T14:56:28.87-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-02-25T09:47:32.31-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-05-14T21:41:22.113-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-09-09T22:54:26.87-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-06-04T14:46:25.677-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:56.937-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

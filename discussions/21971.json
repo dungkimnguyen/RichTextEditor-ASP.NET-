@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "73243",
+    "ThreadId": "21971",
+    "Html": "\r\nIm am trying to use the RichTextEditor object in an UpdatePanel. This does not seem to work! I only see the toolbar with buttons.<br />The hierarchy of my Page:<br />-&gt; MasterPage -&gt; ContentPage -&gt; Web User Control - UpdatePanel - RichTextEditor<br />",
+    "PostedDate": "2008-02-12T02:52:56.527-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "74230",
+    "ThreadId": "21971",
+    "Html": "\r\nI'm having the same problem. When I trigger a async postback the text editor stops working. Is it able to be used in a update panel? I found out about your control from http://blogs.msdn.com/brada/archive/2007/11/11/cool-free-asp-net-ajax-rich-text-editor.aspx and he's calling it a Ajax text editor.<br /><br />can you clear this up, thanks.<br />",
+    "PostedDate": "2008-02-15T14:46:06.69-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

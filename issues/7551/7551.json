@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "when i drag the  Rich Text box control from tool box it is showing error on control as An unhandled exception has occurred. Index was out of range. Must be non-negetive and less than the size of the collection. parameter name:index.....\ncan any one tell me the solution for this error.",
+    "LastUpdatedDate": "2013-02-14T12:46:53.23-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2008-09-09T02:48:13.173-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Error in Rendering control",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 7551
+  },
+  "FileAttachments": [
+    {
+      "FileId": 2099,
+      "FileName": "Doc1.doc",
+      "DownloadUrl": ".\\2099"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "I've got the same error.\r\n\r\nI'm in spaz mode today and could do with a pointer in the right direction",
+      "PostedDate": "2009-10-07T07:13:41.36-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:53.23-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "148909",
+    "ThreadId": "44725",
+    "Html": "Hi,<br>\r\n<br>\r\nI have multiples nested usercontrol where I move child control to have them at another position. The move is done at Load before the ScriptManager register the child scripts for everything to work correctly. This methods suits me well and no controls ever broke in my child element. I used ajax calendar, watermark, componentart calendar, and componentart editor. For a yet unknow reason the RTE is the only control that break when including it my child element.<br>\r\n<br>\r\nScripts crash when trying to acess object exactly at line 82 in RTEStarup.js : RteJustifyLeft.AddRelatedButton(RteJustifyRight);<br>\r\nRteJustifyLeft is undefined.<br>\r\n<br>\r\nAny hints on this would be appreciate.<br>\r\n<br>\r\nThx \r\n",
+    "PostedDate": "2009-01-20T13:59:34.26-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "162276",
+    "ThreadId": "44725",
+    "Html": "There is a lot of javascript in the RTE so dynamically moving the RTE is somehow causing the javascript to no longer find the RTE control on the page. That will be a tough one to troubleshoot.<br>\r\n",
+    "PostedDate": "2009-02-26T04:58:35.28-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "162348",
+    "ThreadId": "44725",
+    "Html": "No matter, I succeeded to fix TinyMCE and to move it dynamically. It was a tough one, but it was possible which it seems not with RTE. TinyMCE was working after the move but it has a big problem with Microsoft AJAX. Thanks to read comments anyway.<br>\r\n",
+    "PostedDate": "2009-02-26T07:42:44.163-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

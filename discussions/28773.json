@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "95955",
+    "ThreadId": "28773",
+    "Html": "Hi, I can't access the edited text in the RTE control.  <br>\r\n<br>\r\nExample: I set the Text property to be, say &quot;John Carpenter.&quot;  I then run the program, change the text in the text box, and click a &quot;Save&quot; button on the page.  I have a breakpoint in the Save button code; the code simply copies the text into a variable.  However, the value of .Text is <strong>still </strong>&quot;John Carpenter.&quot;  What am I doing wrong?\r\n",
+    "PostedDate": "2008-05-30T22:40:24.573-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "96631",
+    "ThreadId": "28773",
+    "Html": "Are you calling the javascript function CopyText() before submitting? I'm not sure why this particular JS function needs to be called but it seems to do the trick.<br>\r\n",
+    "PostedDate": "2008-06-03T20:15:47.163-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "96668",
+    "ThreadId": "28773",
+    "Html": "<br>\r\n<div style=\"border-right:medium none;padding-right:0.2em;border-top:#aaa 0.1em dotted;padding-left:0.2em;padding-bottom:0.2em;margin:1em 0em 2.5em 3em;border-left:medium none;padding-top:0.2em;border-bottom:#aaa 0.1em dotted;font-style:italic\"><br>\r\nyorkrj wrote:<br>\r\nAre you calling the javascript function CopyText() before submitting? I'm not sure why this particular JS function needs to be called but it seems to do the trick.<br>\r\n<br>\r\n<br>\r\n</div>\r\n<br>\r\nThat function is copying the contents from the TEXTAREA to an internalvariable (which is returned to the program)<br>\r\n<br>\r\nI added an 'onblur' attribute to the iFrame so I could not forget to call it:<br>\r\nIn CreateChildControls, just after the 'frameborder' attribute:<br>\r\n<span style=\"font-size:13px\">\r\n<p>iFrame.Attributes.Add(</p>\r\n</span>\r\n<p><span style=\"font-size:13px;color:#a31515\"><span style=\"font-size:13px;color:#a31515\">&quot;onblur&quot;</span></span><span style=\"font-size:13px\">, </span><span style=\"font-size:13px;color:#a31515\"><span style=\"font-size:13px;color:#a31515\">&quot;CopyText();&quot;</span></span><span style=\"font-size:13px\">);<br>\r\n<br>\r\n<p>&nbsp;</p>\r\n</span></p>\r\n",
+    "PostedDate": "2008-06-04T01:23:24.43-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

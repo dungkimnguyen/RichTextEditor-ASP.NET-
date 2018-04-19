@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "when a page is created with only a smily on it switching to html view will not display the html code, \nthe tab selection works it just keeps displaying the image.\n \ntested with current live demo.",
+    "LastUpdatedDate": "2013-02-14T12:46:54.643-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2008-06-02T01:18:34.46-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "switch to html view fails when only a smily is on the page",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 6284
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I tried it in Firefox 2 and it worked as expected. I also tried it in Internet Explorer 7 and I encountered the behavior you describe. If I type in text first then add the smiley, then it works as expected.\r\n\r\nIt should be noted that the live demo is running an older version.",
+      "PostedDate": "2008-07-01T11:34:00.26-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:54.643-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

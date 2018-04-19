@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have some issues with the following points. Please help me.\n \n1. How to create control from server-side. i.e. Setting up toolbar dynamically.\n2. How to set properties from server-side.\n3. How to access the control & its properties from client-side (JavaScript).\n4. Also, how can I set the Read-only property to the control as I have to set the property programmatically depending on some condition.\n \nPlease reply\n \nThank you",
+    "LastUpdatedDate": "2013-02-14T12:46:52.05-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2009-03-03T02:56:34.49-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Dynamic creation of Editor control and access from client side",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9404
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

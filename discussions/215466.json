@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "453538",
+    "ThreadId": "215466",
+    "Html": "I have this on a web form and it updates the database only when I tab into HTML View.  While in textview, it doesn't update at all.\r\n\r\nAny ideas?",
+    "PostedDate": "2010-06-09T07:06:28.553-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "453677",
+    "ThreadId": "215466",
+    "Html": "<table style=\"width:100%\" cellspacing=0 cellpadding=0>\r\n<tbody>\r\n<tr id=\"ctl00_ctl00_MasterContent_Content_PostRepeater_ctl02_PostPanel\">\r\n<td id=\"ctl00_ctl00_MasterContent_Content_PostRepeater_ctl02_PostDetailsCell\" style=\"vertical-align:top;border:medium 1px medium medium none solid none none -moz-use-text-color #bbbbbb -moz-use-text-color -moz-use-text-color\"></td>\r\n<td style=\"width:100%;vertical-align:top\">\r\n<div id=\"ctl00_ctl00_MasterContent_Content_PostRepeater_ctl02_BodyDiv\">\r\n<p>There is a javascript function built into the grid that may solve your issue.</p>\r\n<p>On your command button, call the JavaScript function <span><strong>CopyText()</strong> on the client side before postback. <br></span></p>\r\n<p><span><br>Medmerd</span></p>\r\n</div>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>",
+    "PostedDate": "2010-06-09T12:31:03.03-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "453701",
+    "ThreadId": "215466",
+    "Html": "<p>Thank you.&nbsp; That worked!&nbsp; One more question, how can I add the ability to insert a picture?&nbsp; This is a key item I want implemented.&nbsp; Without it, I will need to find something else unfortunately.</p>\r\n<p>Thanks - Steve</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-06-09T13:38:04.687-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "455303",
+    "ThreadId": "215466",
+    "Html": "<p>Depending on your exact needs here, you may have to modify the core code of the control and add a button to the tool bar. Other wise, you would have to insert the HTML into the control via a button click.</p>\r\n<p>Let me know what you need and I can look into what it will take in more detail.</p>\r\n<p>&nbsp;</p>\r\n<p>Medmerd</p>",
+    "PostedDate": "2010-06-14T10:15:58.2-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

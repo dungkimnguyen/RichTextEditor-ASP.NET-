@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "75411",
+    "ThreadId": "22573",
+    "Html": "\r\nif i add more then one  RichTextEditor in the form 2 nd one is not working <br />can u please help me<br />",
+    "PostedDate": "2008-02-20T23:32:06.06-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "85384",
+    "ThreadId": "22573",
+    "Html": "\r\nI am having the same issue.  If anyone has a solution please share it.<br />",
+    "PostedDate": "2008-04-07T08:29:18.64-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "85635",
+    "ThreadId": "22573",
+    "Html": "\r\nThis issue is related to the javascript that the control generates is not unique to the specific instance of the control.  Variable name and function name conflicts cause issues with multiple instances of the RTE on one page.  To get around this you could either change the rte javascript objects and functions to account for multiple instances, or change the source so the javascript is generated dynamically in the C# code which enables unique names to be created.  Both options require a good deal of work, I opted for option 2.  There may be a better/easier way to do this... but I couldn't find one.<br />",
+    "PostedDate": "2008-04-08T11:29:59.543-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "87197",
+    "ThreadId": "22573",
+    "Html": "\r\nmrfinger, care to share with the group?  I'm not a C# programmer, so where and what to change would be greatly appreciated.<br />",
+    "PostedDate": "2008-04-16T12:12:14.733-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "87559",
+    "ThreadId": "22573",
+    "Html": "\r\nHello,  The changes involved are quite vast.  Unfortunately I don't currently have the time in my schedule to go through all of the modifications needed and post them here.  My work load should lighten as summer approaches and then perhaps I can craft together something to share and maybe even worth suggesting to be added to future release.  Sorry for not being able to share more at this current moment.  A lot of the code is actually Javascript code which needs to be redone.  All of the \"loose\" functions in the js files of the RTE need to be put in to objects...  the C# code then needs to be modified to create unique instances of the objects for each rte.  This methodology can be studied by looking at the code of other AJAX controls...  the AJAX Toolkit is a good place to look.<br />",
+    "PostedDate": "2008-04-18T06:47:04.96-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "96636",
+    "ThreadId": "22573",
+    "Html": "I added this as an issue.<br>\r\n",
+    "PostedDate": "2008-06-03T20:35:59.963-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "518989",
+    "ThreadId": "233934",
+    "Html": "\r\n<p>I've noticed a difference in operation between the no-source version available for download and the source code version, and I'm not sure if it's something I'm doing wrong or if there's a difference in the code between the two.</p>\r\n<p>If I use the no-source version and load text into the editor, it views the text in the original font and size.&nbsp; Also, if the colour palette or emoticons palette are viewed they are in the correct location, just under the calling button and to the left.</p>\r\n<p>However, when I use the source code version, the font of the loaded text defaults to Times New Roman 12 pt and the palettes are to the far left of the screen, with the leftmost column off screen.</p>\r\n<p>I am using Visual Studio 2010 and my .NEt framework version is 4. Thinking it might be a framework versioning issue, I made sure ot try loading the project as version 2 and compiling accordingly.&nbsp; Has anyone else seen this behaviour, or does anyone\r\n have a solution?&nbsp; I've been trying to sort this out for over a day now and can't find what's wrong.</p>\r\n",
+    "PostedDate": "2010-11-08T13:25:41.467-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

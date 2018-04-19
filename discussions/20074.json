@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "66560",
+    "ThreadId": "20074",
+    "Html": "\r\nWhen I modify some text in the regular text mode and click on the 'save' button nothing is saved everything reverts back to original plaintext. What I have to do is go into the HTML tab and click 'save' in order for the Rich Text changes to be saved properly. <br /><br />Is there a fix for this or am I doing something wrong?? <br /><br />Thanks for your help and time.<br />",
+    "PostedDate": "2008-01-07T11:34:13.983-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

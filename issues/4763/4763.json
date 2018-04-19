@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am getting two errors when I implement RTE:\n1. Line 129: ‘Microsoft.js.ui.ToolbarButton.ButtonState.Selected’ is null or not an object\n2. Line 190: ‘Microsoft.js.ui.ToolbarButton.ButtonState.Grayed' is null or not an object\nAny one see this error.\n \nThanks",
+    "LastUpdatedDate": "2013-02-14T12:46:55.363-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2007-12-11T07:09:37.58-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Runtime error for Hyperlink button",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 4763
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

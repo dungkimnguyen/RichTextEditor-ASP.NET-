@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "99253",
+    "ThreadId": "29779",
+    "Html": "In an effort to prioritize&nbsp; development on the RTE control, we're asking the community to weigh in with their requests. Are there any show stoppers that are preventing you from using this control? What are the features that you would like to see the most?<br>\r\n",
+    "PostedDate": "2008-06-17T05:27:57.233-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "99286",
+    "ThreadId": "29779",
+    "Html": "<br>\r\n<div style=\"border-right:medium none;padding-right:0.2em;border-top:#aaa 0.1em dotted;padding-left:0.2em;padding-bottom:0.2em;margin:1em 0em 2.5em 3em;border-left:medium none;padding-top:0.2em;border-bottom:#aaa 0.1em dotted;font-style:italic\"><br>\r\nyorkrj wrote:<br>\r\nAre there any show stoppers that are preventing you from using this control? What are the features that you would like to see the most?<br>\r\n<br>\r\n</div>\r\nShow stoppers: <br>\r\n- while using it within a MasterPage&nbsp;it was misbehaving on&nbsp;redisplay of the page (for example after a button press) this forced me to look for something else (ended up using fckEditor for now, but would love to get rid of the subdir with x amount of files and scripts)<br>\r\n- stylesheet usage (addressed already I think?)<br>\r\n<br>\r\nFeatures: <br>\r\n- disabling of emoticons (not something you want in&nbsp;some production environments), <br>\r\n- height and width variable (already implemented) <br>\r\n- switching TEXT/HTML via toolbar&nbsp;button&nbsp;instead of tab (saves vertical screen space also)<br>\r\n-&nbsp;programatic setting of UI language, our database determines per company the allowed languages checking against what the user has specified as preferences (somewhere there is a check for 'neutral' in the code that trips the setting)<br>\r\n",
+    "PostedDate": "2008-06-17T07:29:40.433-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "101955",
+    "ThreadId": "29779",
+    "Html": "Adsmeenk, I agree with all of your points, especially the MasterPage issues. Regarding the UI language, there might already be a way to programmatically set it. I'll look into it.<br>\r\n",
+    "PostedDate": "2008-07-01T11:56:37.033-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

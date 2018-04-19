@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2008-08-14T18:31:50.23-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "jimbillig\nApr 21 at 1:24 PM\n\t\nI'm using the RTE control to compose email. The problem I'm having is that it is the third control on my page (To, Subject, then RTE), but it is stealing the focus from the first item. Any suggestions on how to fix this?\n \nThanks in advance,\n \nJim\n \n\t\nmrfinger\nApr 22 at 4:06 PM\n\t\nI haven't had to do this, but here are some things that come to minf. have you tried explicitely setting the focus to the desired control in the Page Load event? ie:\ntbTitle.focus();\n \nIf this doesn't work you could set up a javascript load event and maybe setting the focus there would work.\n \nI know the focus is being set in the rte code.... it probably shouldn't be. but maybe the above two suggestions will help as a workaround\n \n\t\njimbillig\nMay 1 at 4:34 PM\n\t\nThanks for the tips, but I haven't been able to get anything to work. I've tried several methods in addition, but I think my problem is that no matter what I do, I get InitRte(); as the last entry in my <script> section. I've looked through the code of the RTE to comment out the focus call, but there are many calls to focus and I'm not sure which one to comment out. Can you tell me which one to comment out? I'm guessing it's the call to this.GetWindow().focus() in RichTextEditor.prototype.Focus = function()?\n \n\t\nmrfinger\nMay 5 at 10:49 AM\n\t\nYes I think you are correct, calls to the RichTextEditor classes Focus function are what to look for. The RTEStartup.js creates a RichTextEditor object called richeditor. I have modified this area so much it is difficult to remember exactly what happens where in the original version. But you are definetely on the right track.",
+    "LastUpdatedDate": "2017-12-14T14:33:52.063-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "rte",
+    "ReportedDate": "2008-06-17T05:33:19.353-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Focus Being Stolen",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 6380
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Resolved with changeset 16197.",
+      "PostedDate": "2008-08-14T18:31:50.23-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:46:53.923-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T02:53:15.927-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-12-14T14:33:52.063-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

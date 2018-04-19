@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "162098",
+    "ThreadId": "48550",
+    "Html": "Hi<br>\r\nWhen I use this control on my usercontrol(.ascx) which is under a infragistics tab, I am not able to enter any text? <br>\r\nDoes this control works on UserControl.<br>\r\n<br>\r\nAny input is appreciated.<br>\r\n<br>\r\nThank in advance<br>\r\n<br>\r\n<br>\r\n",
+    "PostedDate": "2009-02-25T14:42:23.007-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "162272",
+    "ThreadId": "48550",
+    "Html": "The RTE should work within a user control. Have you experimented with using the control directly on an empty page then an empty user control to rule out the root cause? It might be the user control or the infragistics tab or maybe something else related to how you have included the RTE in your user control. Hope that helps.<br>\r\n",
+    "PostedDate": "2009-02-26T04:50:52.877-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

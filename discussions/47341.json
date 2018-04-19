@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "158449",
+    "ThreadId": "47341",
+    "Html": "Is there a provision in RTE control to trim white spaces?<br>\r\nI tried the following code but my attempt ended in vain.<br>\r\n<br>\r\n<strong>string rte = Rte1.Text.ToString().Trim();</strong><br>\r\n<br>\r\nI would appreciate if somebody could throw light on this?<br>\r\nThanks in advance.<br>\r\n",
+    "PostedDate": "2009-02-17T04:45:06.077-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "162273",
+    "ThreadId": "47341",
+    "Html": "There are no provisions to trim out whitespace at this time. What you may be seeing are HTML whitespace tags such as &lt;br&gt; or &lt;p&gt;. Hope that helps.<br>\r\n",
+    "PostedDate": "2009-02-26T04:52:37.453-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

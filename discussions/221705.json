@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "473722",
+    "ThreadId": "221705",
+    "Html": "<p>Hi, I am using RTE in an ASP.net 2.0 application, it works well but when I deployed my website on https. IE is poping up an alert for &quot;non secure items on the page&quot; whenever I access RTE control page, remaining pages on website is working very well. Please suggest a workaround or fix for this issue.</p>\r\n<p>Regards,</p>\r\n<p>Deepak</p>",
+    "PostedDate": "2010-07-28T08:05:39.57-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]
